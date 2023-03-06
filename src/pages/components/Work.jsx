@@ -38,7 +38,7 @@ export default function Work(props) {
                 filter: "grayscale(100%)",
               }}
             ></img>
-            <div className="px-24 py-8">
+            <div className="px-12 md:px-24 py-8">
               <p>
                 {" "}
                 <span className="font-bold">Technologies Used:</span>{" "}

@@ -40,6 +40,7 @@ export default function TextCloud(props) {
       {wordProperties.map((word, i) => (
         <p
           key={i}
+          className="text-cloud"
           style={{
             position: "absolute",
             top: props.randomNumbers[i] * (window.innerHeight - 50),

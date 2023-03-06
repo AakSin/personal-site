@@ -27,3 +27,20 @@ code {
 /* .swiper-pagination {
   position: inherit !important;
 } */
+
+@keyframes shimmer {
+  0% {
+    color: rgba(0, 0, 0, 0);
+  }
+  70% {
+    color: rgba(0, 0, 0, 1);
+  }
+  100% {
+    color: rgba(0, 0, 0, 0.25);
+  }
+}
+.text-cloud {
+  animation-name: shimmer;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+}
