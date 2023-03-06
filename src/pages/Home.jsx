@@ -8,17 +8,17 @@ export default function Home(props) {
   const [wordList, setWordList] = useState([]);
 
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       <TextCloud
         wordList={wordList}
         randomNumbers={props.randomNumbers}
       ></TextCloud>
-      <div className="h-screen w-1/2 flex justify-center items-center">
+      <div className="h-screen w-full md:w-1/2 h-screen flex justify-center items-center">
         <h1 className="text-7xl text-center">
           Aakarsh <br></br> Singh
         </h1>
       </div>
-      <div className="h-screen w-1/2 py-8 flex flex-col justify-center items-center">
+      <div className="h-screen w-full md:w-1/2 py-8 flex flex-col justify-center items-center">
         <h2 className="text-center text-3xl font-bold cursor-pointer pb-8">
           <span
             style={{ color: about ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)" }}
