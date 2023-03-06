@@ -42,12 +42,12 @@ export default function TextCloud(props) {
           key={i}
           style={{
             position: "absolute",
-            top: props.randomNumbers[i] * window.innerHeight,
+            top: props.randomNumbers[i] * (window.innerHeight - 50),
             left:
               props.randomNumbers[i + wordProperties.length] *
               (window.innerWidth > 768
-                ? window.innerWidth / 2
-                : window.innerWidth),
+                ? (window.innerWidth - 50) / 2
+                : window.innerWidth - 50),
             color: props.wordList.includes(word.word)
               ? "rgba(0,0,0,1)"
               : "rgba(0,0,0,0.25)",
