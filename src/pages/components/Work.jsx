@@ -49,6 +49,7 @@ export default function Work(props) {
                 <a
                   className="font-bold underline underline-offset-4"
                   href={"/work/" + work.name}
+                  target="_blank"
                 >
                   Read More
                 </a>
