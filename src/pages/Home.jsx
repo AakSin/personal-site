@@ -3,12 +3,16 @@ import TextCloud from "./components/TextCloud";
 import About from "./components/About";
 import Work from "./components/Work";
 import workData from "../workData.json";
-export default function Home() {
+export default function Home(props) {
   const [about, setAbout] = useState(true);
   const [wordList, setWordList] = useState([]);
+
   return (
     <div className="flex">
-      <TextCloud wordList={wordList}></TextCloud>
+      <TextCloud
+        wordList={wordList}
+        randomNumbers={props.randomNumbers}
+      ></TextCloud>
       <div className="h-screen w-1/2 flex justify-center items-center">
         <h1 className="text-7xl text-center">
           Aakarsh <br></br> Singh

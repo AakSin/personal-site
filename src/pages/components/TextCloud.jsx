@@ -5,58 +5,34 @@ export default function TextCloud(props) {
     {
       word: "technology",
       size: 1,
-      active: true,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
     {
       word: "arts",
       size: 1,
-      active: false,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
     {
       word: "technology",
       size: 1,
-      active: true,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
     {
       word: "arts",
       size: 1,
-      active: false,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
     {
       word: "technology",
       size: 1,
-      active: true,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
     {
       word: "arts",
       size: 1,
-      active: false,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
     {
       word: "technology",
       size: 1,
-      active: true,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
     {
       word: "arts",
       size: 1,
-      active: false,
-      top: Math.random() * window.innerHeight + "px",
-      left: (Math.random() * window.innerWidth) / 2 + "px",
     },
   ];
   return (
@@ -66,8 +42,11 @@ export default function TextCloud(props) {
           key={i}
           style={{
             position: "absolute",
-            top: word.top,
-            left: word.left,
+            top: props.randomNumbers[i] * window.innerHeight,
+            left:
+              (props.randomNumbers[i + wordProperties.length] *
+                window.innerWidth) /
+              2,
             color: props.wordList.includes(word.word)
               ? "rgba(0,0,0,1)"
               : "rgba(0,0,0,0.25)",

@@ -28,7 +28,7 @@ export default function Work(props) {
       {workData.data
         .filter((work) => work.name === currentWork)
         .map((work, key) => (
-          <div className="flex justify-center items-center flex-col">
+          <div key={key} className="flex justify-center items-center flex-col">
             <img
               src={work.media[0].link}
               style={{
