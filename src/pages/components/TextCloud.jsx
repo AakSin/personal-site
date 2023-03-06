@@ -1,9 +1,63 @@
 import React from "react";
 
-export default function TextCloud() {
+export default function TextCloud(props) {
   const wordProperties = [
-    { word: "technology", size: 1, active: true },
-    { word: "arts", size: 1, active: false },
+    {
+      word: "technology",
+      size: 1,
+      active: true,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
+    {
+      word: "arts",
+      size: 1,
+      active: false,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
+    {
+      word: "technology",
+      size: 1,
+      active: true,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
+    {
+      word: "arts",
+      size: 1,
+      active: false,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
+    {
+      word: "technology",
+      size: 1,
+      active: true,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
+    {
+      word: "arts",
+      size: 1,
+      active: false,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
+    {
+      word: "technology",
+      size: 1,
+      active: true,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
+    {
+      word: "arts",
+      size: 1,
+      active: false,
+      top: Math.random() * window.innerHeight + "px",
+      left: (Math.random() * window.innerWidth) / 2 + "px",
+    },
   ];
   return (
     <div>
@@ -12,9 +66,11 @@ export default function TextCloud() {
           key={i}
           style={{
             position: "absolute",
-            top: Math.random() * window.innerHeight + "px",
-            left: (Math.random() * window.innerWidth) / 2 + "px",
-            color: word.active ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)",
+            top: word.top,
+            left: word.left,
+            color: props.wordList.includes(word.word)
+              ? "rgba(0,0,0,1)"
+              : "rgba(0,0,0,0.25)",
           }}
         >
           {word.word}

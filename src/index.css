@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,3 +14,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+
+/* .swiper-pagination {
+  position: inherit !important;
+} */
