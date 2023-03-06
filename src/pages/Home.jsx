@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TextCloud from "./components/TextCloud";
 import About from "./components/About";
 import Work from "./components/Work";
+import workData from "../workData.json";
 export default function Home() {
   const [about, setAbout] = useState(true);
   const [wordList, setWordList] = useState([]);
@@ -13,8 +14,8 @@ export default function Home() {
           Aakarsh <br></br> Singh
         </h1>
       </div>
-      <div className="h-screen w-1/2 flex justify-center items-center flex-col">
-        <h2 className="text-3xl font-bold cursor-pointer pb-8">
+      <div className="h-screen w-1/2 py-8 flex flex-col justify-center items-center">
+        <h2 className="text-center text-3xl font-bold cursor-pointer pb-8">
           <span
             style={{ color: about ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)" }}
             onClick={() => {
@@ -27,7 +28,10 @@ export default function Home() {
           {" | "}
           <span
             style={{ color: !about ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)" }}
-            onClick={() => setAbout(false)}
+            onClick={() => {
+              setAbout(false);
+              setWordList(workData.data[0].tags);
+            }}
           >
             work
           </span>

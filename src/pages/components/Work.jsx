@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import workData from "../../workData.json";
 
 export default function Work(props) {
-  const [currentWork, setCurrentWork] = useState("Electronicos Fantasticos");
+  const [currentWork, setCurrentWork] = useState(workData.data[0].name);
 
   return (
     <div>
-      <div className="pb-12">
+      <div className="pb-8 flex flex-wrap justify-center">
         {workData.data.map((work, key) => (
           <h3
             key={key}
-            className="inline cursor-pointer p-5"
+            className="cursor-pointer px-5 py-1"
             style={{
               color:
-                work.name === currentWork ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.5)",
+                work.name === currentWork ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.4)",
             }}
             onClick={() => {
               props.setWordList(work.tags);
@@ -38,15 +38,20 @@ export default function Work(props) {
                 filter: "grayscale(100%)",
               }}
             ></img>
-            <div className="p-12">
+            <div className="px-24 py-8">
               <p>
                 {" "}
                 <span className="font-bold">Technologies Used:</span>{" "}
                 {work.technology}
               </p>
               <p className="pt-4">
-                {work.description[0].text.substring(0, 500) + "..."}
-                <a href={"/work/" + work.name}>Read More</a>
+                {work.description[0].text.substring(0, 500) + ".. "}
+                <a
+                  className="font-bold underline underline-offset-4"
+                  href={"/work/" + work.name}
+                >
+                  Read More
+                </a>
               </p>
             </div>
           </div>
