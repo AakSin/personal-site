@@ -17,7 +17,7 @@ export default function WorkMain() {
   const workInfo = workData.data.filter((work) => work.name === name)[0];
   console.log(workInfo);
   return (
-    <div className="min-h-screen py-12">
+    <div className="min-min-h-screen py-12">
       <div className="flex justify-between items-center md:items-end  px-8 md:px-32 ">
         <a href="/" className="text-2xl">
           Home

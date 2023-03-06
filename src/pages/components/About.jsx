@@ -4,7 +4,7 @@ import Profile from "./profile.jpg";
 export default function About() {
   return (
     <div className="flex justify-center items-center flex-col px-8">
-      <img src={Profile} className="w-1/2 md:w-2/5"></img>
+      <img src={Profile} className="w-3/4 md:w-2/5 2xl:w-3/5"></img>
       <div className="w-5/6 md:w-3/4 pb-4">
         <p className="pt-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis
