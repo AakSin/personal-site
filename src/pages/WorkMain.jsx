@@ -86,6 +86,7 @@ export default function WorkMain() {
           {workInfo.sourceCode ? (
             <a
               href={workInfo.sourceCode}
+              target="_blank"
               className="font-bold underline underline-offset-4 py-4"
             >
               Source Code

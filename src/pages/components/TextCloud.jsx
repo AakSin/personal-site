@@ -44,9 +44,10 @@ export default function TextCloud(props) {
             position: "absolute",
             top: props.randomNumbers[i] * window.innerHeight,
             left:
-              (props.randomNumbers[i + wordProperties.length] *
-                window.innerWidth) /
-              2,
+              props.randomNumbers[i + wordProperties.length] *
+              (window.innerWidth > 768
+                ? window.innerWidth / 2
+                : window.innerWidth),
             color: props.wordList.includes(word.word)
               ? "rgba(0,0,0,1)"
               : "rgba(0,0,0,0.25)",

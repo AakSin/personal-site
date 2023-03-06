@@ -20,10 +20,18 @@ export default function About() {
           nibh. In porttitor mi ac urna faucibus, eget interdum sapien dapibus.
           Praesent eleifend ligula ut nunc feugiat malesuada.
         </p>
-        <a href="#" className="font-bold underline underline-offset-4">
+        <a
+          href="#"
+          target="_blank"
+          className="font-bold underline underline-offset-4"
+        >
           GitHub
         </a>{" "}
-        <a href="#" className="font-bold underline underline-offset-4">
+        <a
+          href="#"
+          target="_blank"
+          className="font-bold underline underline-offset-4"
+        >
           Instagram
         </a>
       </div>
