@@ -17,18 +17,24 @@ export default function WorkMain() {
   const workInfo = workData.data.filter((work) => work.name === name)[0];
   console.log(workInfo);
   return (
-    <div className="min-h-screen">
-      <div className="flex justify-between items-center pt-12 px-12">
-        <a href="/" className="text-3xl">
-          home
+    <div className="min-h-screen py-12">
+      <div className="flex justify-between items-center md:items-end  px-8 md:px-32 ">
+        <a href="/" className="text-2xl">
+          Home
         </a>
-        <h1 className="text-5xl">{workInfo.name}</h1>
-        <h2 className="text-3xl">{workInfo.date}</h2>
+        <h1 className="text-3xl md:text-5xl text-center">{workInfo.name}</h1>
+        <h2 className="text-2xl text-center">{workInfo.date}</h2>
       </div>
       <Swiper
+        breakpoints={{
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 3,
+          },
+        }}
         style={{ padding: "3rem", height: "60vh", width: "95%" }}
         navigation={true}
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -47,7 +53,7 @@ export default function WorkMain() {
                 style={{ height: "100%", objectFit: "contain" }}
                 src={media.link}
               ></img>
-              <p className="italic w-full px-2 pt-2">{media.caption}</p>
+              <p className="italic px-2 pt-2">{media.caption}</p>
             </SwiperSlide>
           ) : (
             <SwiperSlide
@@ -66,13 +72,13 @@ export default function WorkMain() {
                 allowFullScreen
                 title="Embedded youtube"
               />
-              <p className="italic w-full px-2 pt-2">{media.caption}</p>
+              <p className="italic px-2 pt-2">{media.caption}</p>
             </SwiperSlide>
           )
         )}
       </Swiper>
       <div className="flex justify-center pt-3">
-        <div className="w-1/2 text-lg">
+        <div className="md:w-1/2 w-5/6 text-lg">
           <p className="py-4">
             <span className="font-bold">Technologies Used: </span>{" "}
             {workInfo.technology}
