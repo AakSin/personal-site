@@ -39,7 +39,7 @@ export default function WorkMain() {
             slidesPerView: 3,
           },
         }}
-        style={{ padding: "1rem 3rem", height: "60vh", width: "95%" }}
+        style={{ padding: "3rem", height: "60vh", width: "95%" }}
         navigation={true}
         slidesPerView={1}
         spaceBetween={30}

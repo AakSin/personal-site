@@ -79,7 +79,15 @@
     },
     {
       "name": "Faceshopping",
-      "tags": ["augmented reality", "music", "technology", "new media"],
+      "tags": [
+        "augmented reality",
+        "audio reactive",
+        "music",
+        "technology",
+        "new media",
+        "identity",
+        "transmedia"
+      ],
       "date": "December 2022",
       "technology": "Cinema4D, Meta Spark Studio",
       "sourceCode": "https://github.com/AakSin/Faceshopping",
@@ -136,17 +144,32 @@
     },
     {
       "name": "aloegarten",
-      "tags": ["technology"],
+      "tags": [
+        "virtual reality",
+        "music",
+        "new media",
+        "immersive",
+        "transmedia",
+        "technology",
+        "arts",
+        "identity"
+      ],
       "date": "October - November 2022",
       "technology": "Unity, C#, Cinema4D",
       "description": [
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "Aloegarten is a virtual reality recreation of the worlds of Swedish artist Ecco2k / Zak Arogundade. Themes from his works regarding colorist societal alienation, substance abuse, powerlessness and identity are extrapolated in this three dimensional transmedia project.The project covers two of his songs - Peroxide and AAA Powerline."
         },
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "header": "Conception",
+          "text": "The themes present in Ecco2k’s works are very personal to my lives as well. Through an exploration of his music videos and lyricism, I chose to expand and interpret these themes into my understanding of them. This started out by creating conception sketches in Procreate (present in the gallery above). This was to gain an understanding of the feel of the scenes. Then I started mapping out the project in 3D."
+        },
+        {
+          "header": "Technical Implementation",
+          "text": "The project is created using Unity. For the water in the first/Peroxide scene, I use Unity’s Universal Render Pipeline (URP). Using displacement maps and shadergraphs, I was able to simulate wave-like motion for the water. I then wrote C# scripts that would track this motion and create a buoyant force on any rigid body floating on water. The raft in the scene was given this script along with a controller script. A portal was implemented to take the user to the second/AAA Powerline scene."
+        },
+        {
+          "text": "In the AAA Powerline scene, I place the viewer into a car and create a cyberpunk city around them. I then start tweaking the material of the glass so that it simulates refraction and distortion of perspectives when viewed from different angles. The person is unable to move in the scene. They are in the backseat and unable to control their actions. I create a holographic material for the VR hands of the person, which they have been detached from. The car continues moving in an endless loop, unable to be controlled and having you forever stuck."
         }
       ],
       "media": [
@@ -193,49 +216,50 @@
       ]
     },
     {
-      "name": "Symphonizer",
-      "tags": ["technology"],
-      "date": "June 2022",
-      "technology": "Cinema4D, Unity",
-      "sourceCode": "https://www.google.com",
+      "name": "Communication Plateau",
+      "tags": [
+        "audio reactive",
+        "installation",
+        "light",
+        "sound",
+        "technology"
+      ],
+      "date": "December 2022",
+      "technology": "Kinect, TouchDesigner",
+      "sourceCode": "https://github.com/AakSin/CommunicationPlateau",
       "description": [
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
-        },
-        {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "Communication Plateau is an interactive sound and light installation derived from Plato’s Allegory of The Cave. Inspired by the imagery of projections on the wall as a metaphor for existence, I set out to simulate a similar visual language in this installation. The project involves a Kinect Azure pointed at the entrance of the exhibition. The Kinect then sends point cloud data into TouchDesigner. The point cloud data is then formatted and passed through various nodes like blur, feedback and threshold. These nodes are also mapped to an original soundtrack and depending on the frequency, the values in the node changes, creating an audio-reactive experience."
         }
       ],
       "media": [
         {
-          "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "link": "https://i.imgur.com/RTQ4MOq.jpg",
           "type": "image",
-          "caption": "image 1"
+          "caption": "Picture from project installation"
         },
         {
-          "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",
+          "link": "https://www.youtube.com/embed/A8lEnJhtTaM",
           "type": "video",
-          "caption": "video 2"
+          "caption": "First demo on screen"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-          "type": "image",
-          "caption": "image 3"
+          "link": "https://www.youtube.com/embed/5oVOlH9Gxgw",
+          "type": "video",
+          "caption": "First demo on a projector"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-          "type": "image",
-          "caption": "image 3"
+          "link": "https://www.youtube.com/embed/ihP8nLv5nsE",
+          "type": "video",
+          "caption": "Video from project installation"
         }
       ]
     },
     {
-      "name": "Louvre Installation",
-      "tags": ["technology"],
-      "date": "June 2022",
-      "technology": "Cinema4D, Unity",
+      "name": "“Real” Art",
+      "tags": ["technology", "installation", "artificial intelligence", "web"],
+      "date": "November 2022",
+      "technology": "JavaScript, React, Next.js, Firebase",
       "sourceCode": "https://www.google.com",
       "description": [
         {
@@ -249,9 +273,9 @@
       ],
       "media": [
         {
-          "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "link": "https://i.imgur.com/goT2vNA.png",
           "type": "image",
-          "caption": "image 1"
+          "caption": "Screenshot of project website"
         },
         {
           "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",
@@ -349,7 +373,7 @@
       ]
     },
     {
-      "name": "Communication Plateau",
+      "name": "Symphonizer",
       "tags": ["technology"],
       "date": "June 2022",
       "technology": "Cinema4D, Unity",

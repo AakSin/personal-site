@@ -39,32 +39,41 @@ export default function TextCloud(props) {
       size: 1,
     },
     {
-      word: "technology",
+      word: "virtual reality",
       size: 1,
     },
     {
-      word: "arts",
+      word: "immersive",
       size: 1,
     },
     {
-      word: "music",
+      word: "transmedia",
+      size: 1,
+    },
+    ,
+    {
+      word: "audio reactive",
       size: 1,
     },
     {
-      word: "arts",
+      word: "installation",
       size: 1,
     },
     {
-      word: "sound",
+      word: "light",
       size: 1,
     },
     {
-      word: "performance",
+      word: "web",
       size: 1,
     },
     {
-      word: "arts",
+      word: "artificial intelligence",
       size: 1,
+    },
+    {
+      word: "identity",
+      size: 0.75,
     },
   ];
   return (
@@ -75,6 +84,7 @@ export default function TextCloud(props) {
           className="text-cloud"
           style={{
             position: "absolute",
+            fontSize: word.size + "rem",
             top: props.randomNumbers[i] * (window.innerHeight - 50),
             left:
               props.randomNumbers[i + wordProperties.length] *

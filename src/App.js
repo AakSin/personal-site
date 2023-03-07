@@ -6,7 +6,7 @@ import Error from "./pages/Error";
 
 export default function App() {
   let randomNumbers = [];
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 100; i++) {
     randomNumbers.push(Math.random());
   }
 
