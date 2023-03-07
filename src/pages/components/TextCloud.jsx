@@ -71,7 +71,7 @@ export default function TextCloud(props) {
       word: "artificial intelligence",
       size: 1,
     },
-    { word: "interconnected", size: 0.75 },
+    { word: "interconnected", size: 0.9 },
     {
       word: "identity",
       size: 0.75,

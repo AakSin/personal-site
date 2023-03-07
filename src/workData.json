@@ -326,12 +326,19 @@
       "liveLink": "https://camjam1.glitch.me/",
       "description": [
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "CamJam is a web-based multiplayer platform wherein users can play instruments like the piano, guitar, bass and drums just by using their webcam. A person can create a room and then share that link with up to 3 more people. Everyone can then select their instruments and start jamming together."
         },
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "header": "Concept",
+          "text": "During COVID-19, I came to realize how much I missed playing music together with my friends. I initially started out looking for a way to jam with real instruments over the web but then I started thinking about people who don’t own instruments. With this project, I set out to provide a platform where people could jam together with their friends by just using their webcams (something that became a necessity during COVID’s Zoom era)."
+        },
+        {
+          "header": "Instrument Implementation",
+          "text": "The piano works on ml5.js’s HandPose model. It gets the coordinate point of each joint in the hand and then depending on which finger was brought down, plays a certain note. The bass and drums work on ml5.js’s PoseNet model. Depending on how much movement the left and right wrists had in certain sections of the screen, a certain sound is played. The guitar combines both HandPose and PoseNet. The left hand keeps track of which finger is down and which note to play. The right hand tracks the wrist to check when a person brings it down, which equates to a strum."
+        },
+        {
+          "header": "Server Implementation",
+          "text": "The site uses p5’s Live Media implementation (https://github.com/vanevery/p5LiveMedia). The  user’s webcam is captured using the createCapture method. The other webcams are provided as streams and are “drawn onto canvas”. To pass sound information around, I used the provided getData method. Depending on whichever sound had to be played, a certain string would be passed around. This would trigger the sound in all clients except the creator of the sound."
         }
       ],
       "media": [
@@ -354,6 +361,16 @@
           "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/bass.gif",
           "type": "image",
           "caption": "Bass tech demo"
+        },
+        {
+          "link": "https://i.imgur.com/C6RpsJy.png",
+          "type": "image",
+          "caption": "Screenshot of website layout"
+        },
+        {
+          "link": "https://www.youtube.com/embed/2_LWjRFyWSs?",
+          "type": "video",
+          "caption": "In-person demo of CamJam"
         }
       ]
     },
