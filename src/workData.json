@@ -135,11 +135,10 @@
       ]
     },
     {
-      "name": "Genesis",
+      "name": "aloegarten",
       "tags": ["technology"],
-      "date": "June 2022",
+      "date": "October - November 2022",
       "technology": "Cinema4D, Unity",
-      "sourceCode": "https://www.google.com",
       "description": [
         {
           "header": "Planning",
@@ -152,24 +151,44 @@
       ],
       "media": [
         {
-          "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "link": "https://i.imgur.com/6DDd2DA.png",
           "type": "image",
-          "caption": "image 1"
+          "caption": "A still from the Peroxide scene"
         },
         {
-          "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",
+          "link": "https://i.imgur.com/og7BxpX.jpg",
+          "type": "image",
+          "caption": "A still from the AAA Powerline scene"
+        },
+        {
+          "link": "https://www.youtube.com/embed/w7fjQeXgBbU",
           "type": "video",
-          "caption": "video 2"
+          "caption": "A full walkthrough of aloegarten"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://i.imgur.com/XfSOhui.png",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Conception sketches for AAA Powerline scene"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://i.imgur.com/h922y93.png",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Conception sketches for a deleted scene"
+        },
+        {
+          "link": "https://i.imgur.com/VEHphL9.png",
+          "type": "image",
+          "caption": "A screenshot of the shader graph for the water"
+        },
+        {
+          "link": "https://i.imgur.com/A3GN9Ns.png",
+          "type": "image",
+          "caption": "A still from the Peroxide scene"
+        },
+        {
+          "link": "https://i.imgur.com/udxh6DE.jpg",
+          "type": "image",
+          "caption": "A still from the AAA Powerline scene"
         }
       ]
     },
@@ -252,7 +271,7 @@
       ]
     },
     {
-      "name": "aloegarten",
+      "name": "Genesis",
       "tags": ["technology"],
       "date": "June 2022",
       "technology": "Cinema4D, Unity",
@@ -271,7 +290,7 @@
         {
           "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
           "type": "image",
-          "caption": "image 1"
+          "caption": "Still from Peroxide scene"
         },
         {
           "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",

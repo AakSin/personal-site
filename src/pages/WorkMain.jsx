@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Zoom from "react-medium-image-zoom";
+import "./Zoom.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -53,10 +54,13 @@ export default function WorkMain() {
               className="flex flex-col justify-center items-center p-7"
               key={key}
             >
-              <img
-                style={{ height: "100%", objectFit: "contain" }}
-                src={media.link}
-              ></img>
+              <Zoom style={{ height: "100%", objectFit: "contain" }}>
+                <img
+                  style={{ height: "100%", objectFit: "contain" }}
+                  src={media.link}
+                  loading="lazy"
+                ></img>
+              </Zoom>
               <p className="italic px-2 pt-2 text-center">{media.caption}</p>
             </SwiperSlide>
           ) : (
