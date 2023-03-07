@@ -86,7 +86,8 @@
         "technology",
         "new media",
         "identity",
-        "transmedia"
+        "transmedia",
+        "visualizers"
       ],
       "date": "December 2022",
       "technology": "Cinema4D, Meta Spark Studio",
@@ -152,7 +153,8 @@
         "transmedia",
         "technology",
         "arts",
-        "identity"
+        "identity",
+        "visualizers"
       ],
       "date": "October - November 2022",
       "technology": "Unity, C#, Cinema4D",
@@ -222,7 +224,8 @@
         "installation",
         "light",
         "sound",
-        "technology"
+        "technology",
+        "visualizers"
       ],
       "date": "December 2022",
       "technology": "Kinect, TouchDesigner",
@@ -343,6 +346,11 @@
       ],
       "media": [
         {
+          "link": "https://i.imgur.com/2JwPppq.jpg",
+          "type": "image",
+          "caption": "Guitar tech still"
+        },
+        {
           "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/guitar.gif",
           "type": "image",
           "caption": "Guitar tech demo"
@@ -376,40 +384,68 @@
     },
     {
       "name": "Genesis",
-      "tags": ["technology"],
-      "date": "June 2022",
-      "technology": "Cinema4D, Unity",
-      "sourceCode": "https://www.google.com",
+      "tags": [
+        "technology",
+        "virtual reality",
+        "music",
+        "hardware",
+        "electronics",
+        "new media",
+        "visualizers"
+      ],
+      "date": "April-May 2022",
+      "technology": "A-Frame, three.js, JavaScript, Arduino, C++, XBee, WebSockets",
+      "sourceCode": "https://github.com/AakSin/IntroToIM/tree/main/finalProject",
+      "liveLink": "https://aframesockets.glitch.me/",
       "description": [
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "Genesis is a webVR music experience set to Genesis by Grimes. The experience involves the user suspended in mid-air as particles revolve around them. With a custom Arduino controller made by us, the user could manipulate these particles and move around. The aim was to create a surreal and psychedelic visualizer to Grimes’ track while providing the user complete immersion and control."
         },
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "Note: The live demo is paired with a custom Arduino controller to control the visuals. Even without it though, a user can still enjoy the visuals in VR."
+        },
+        {
+          "header": "Hardware Implementation",
+          "text": "The controller involves an Arduino Uno housing an accelerometer, two buttons and an XBee module. Since the visuals of the project involve three dimensions, we wanted a sensor that would also give us inputs in three dimensions. Hence, we chose the accelerometer to give us the user’s tilt and motion in the three axes. The buttons are simply to move up and down in the virtual world. The XBee module was crucial to make the controller wireless. Initial prototypes involved the project with a wire and that would severely restrict the controller’s motion."
+        },
+        {
+          "header": "Website Implementation",
+          "text": "The virtual world is set up using A-Frame, a webVR framework built on top of three.js. I set up an animation for the spheres to move in a spiral pattern by iterating through all of them and changing their transformations. The input from the controller then controls the radius of this spiral, the movement speed of the spheres and the color of the spheres. Using spatial audio, as the user descends down into the spiral, the audio of Genesis becomes louder."
+        },
+        {
+          "text": "As we didn’t own a virtual reality headset at that time, we decided to use a phone inside of Google Cardboard as our virtual reality headset. The XBee module only connects with a computer though and thus I had to set up an entire WebSocket system to communicate data between the phone and the laptop. Upon every change of input received by the laptop, the data would be sent to all other clients who have the site open. This included the phone, hence allowing the phone to mirror the laptop’s visuals."
         }
       ],
       "media": [
         {
-          "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "link": "https://github.com/AakSin/aaksin-public/raw/main/genesis/3498ba743b114470404ecbc99d13ce0d.gif",
           "type": "image",
-          "caption": "image 1"
+          "caption": "Genesis Device Demo"
         },
         {
-          "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",
+          "link": "https://www.youtube.com/embed/ui-yJ7_DYvo",
           "type": "video",
-          "caption": "video 2"
+          "caption": "In-class presentation of Genesis"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-          "type": "image",
-          "caption": "image 3"
+          "link": "https://www.youtube.com/embed/ELKH0ijsJAQ",
+          "type": "video",
+          "caption": "Exhibition presentation of Genesis"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://www.youtube.com/embed/u7Tf66VZSUg",
+          "type": "video",
+          "caption": "Prototyping Genesis V1"
+        },
+        {
+          "link": "https://www.youtube.com/embed/jX-XVjoRggI",
+          "type": "video",
+          "caption": "Prototyping Genesis V2"
+        },
+        {
+          "link": "https://i.imgur.com/4poHKGx.jpg",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Picture of Genesis Controller"
         }
       ]
     },

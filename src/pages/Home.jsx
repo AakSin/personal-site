@@ -13,7 +13,7 @@ export default function Home(props) {
         wordList={wordList}
         randomNumbers={props.randomNumbers}
       ></TextCloud>
-      <div className="min-h-screen w-full md:w-1/2 flex justify-center items-center">
+      <div className="max-h-screen w-full md:w-1/2 flex justify-center items-center">
         <h1 className="text-7xl text-center">
           Aakarsh <br></br> Singh
         </h1>

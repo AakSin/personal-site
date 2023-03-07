@@ -68,6 +68,10 @@ export default function TextCloud(props) {
       size: 1,
     },
     {
+      word: "visualizers",
+      size: 1,
+    },
+    {
       word: "artificial intelligence",
       size: 1,
     },

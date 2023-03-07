@@ -110,7 +110,7 @@ export default function WorkMain() {
               target="_blank"
               className="font-bold underline underline-offset-4 py-4"
             >
-              Live Link
+              Project Link
             </a>
           ) : null}
           {workInfo.description.map((info) => (
