@@ -19,14 +19,16 @@ export default function WorkMain() {
   console.log(workInfo);
   return (
     <div className="min-min-h-screen py-12">
-      <div className="flex justify-between items-center md:items-end  px-8 md:px-32 ">
-        <a href="/" className="text-lg md:text-2xl px-2">
+      <div className="px-8 md:px-32 ">
+        <a href="/" className="text-lg md:text-2xl px-2 md:px-0">
           Home
         </a>
-        <h1 className="text-2xl md:text-5xl text-center px-2">
+        {/* <div className="w-full"> */}
+        <h1 className="text-3xl md:text-5xl text-center px-2 md:px-0">
           {workInfo.name}
         </h1>
-        <h2 className="text-lg md:text-2xl text-center px-2">
+        {/* </div> */}
+        <h2 className="text-xl md:text-2xl text-center px-2 md:px-0">
           {workInfo.date}
         </h2>
       </div>
@@ -37,7 +39,7 @@ export default function WorkMain() {
             slidesPerView: 3,
           },
         }}
-        style={{ padding: "3rem", height: "60vh", width: "95%" }}
+        style={{ padding: "1rem 3rem", height: "60vh", width: "95%" }}
         navigation={true}
         slidesPerView={1}
         spaceBetween={30}
