@@ -61,6 +61,7 @@ export default function WorkMain() {
                   style={{ height: "100%", objectFit: "contain" }}
                   src={media.link}
                   loading="lazy"
+                  className="drop-shadow-md hover:drop-shadow-xl"
                 ></img>
               </Zoom>
               <p className="italic px-2 pt-2 text-center">{media.caption}</p>

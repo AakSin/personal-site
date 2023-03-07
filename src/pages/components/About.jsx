@@ -8,24 +8,22 @@ export default function About() {
       <div className="w-5/6 md:w-3/4 pb-4">
         <p className="pt-8">
           Aakarsh Singh (he/they) is a multi-disciplinary new media artist
-          hailing originally from India but now settled in the United Arab
-          Emirates. Aakarsh studies Interactive Media along with Sound and Music
-          Computing between New York University’s Abu Dhabi, Berlin and New York
-          campuses.
+          originally from India but now settled in the United Arab Emirates.
+          Aakarsh studies Interactive Media along with Sound and Music Computing
+          between New York University’s Abu Dhabi, Berlin and New York campuses.
         </p>
         <p className="pt-4">
-          Aakarsh grew up interested in technology and the arts both, hence
-          leading them to pursue a major that would allow them to combine these
-          initially divulging interests - Interactive Media. With their studies
-          in Interactive Media, Aakarsh works between virtual reality, augmented
-          reality, artificial intelligence, sound-light installations and
-          interconnected multimedia websites. They aim to explore ideas of
-          postcolonial and queer identities by pushing at the boundaries of
-          these mediums.
+          Aakarsh grew up interested in both technology and the arts, which led
+          them to pursue a major that would allow them to combine these
+          initially divulging interests. With their studies in Interactive
+          Media, Aakarsh works between virtual reality, augmented reality,
+          artificial intelligence, sound-light installations, and interconnected
+          multimedia websites. They aim to explore ideas of postcolonial and
+          queer identities by pushing at the boundaries of these mediums.
         </p>
         <p className="py-4">
-          In their free time they play the guitar, make music and create digital
-          art.
+          In their free time they play the guitar, make music, and create
+          digital art.
         </p>
         <a
           href="https://github.com/AakSin"
