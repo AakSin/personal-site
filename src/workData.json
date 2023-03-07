@@ -2,79 +2,135 @@
   "data": [
     {
       "name": "Electronicos Fantasticos",
-      "tags": ["technology"],
-      "date": "June 2022",
-      "technology": "Cinema4D, Unity",
-      "sourceCode": "https://www.google.com",
+      "tags": [
+        "hardware",
+        "electronics",
+        "music",
+        "sound",
+        "technology",
+        "performance",
+        "arts"
+      ],
+      "date": "June - August 2022",
+      "technology": "Hardware, Electronics, CRTs, Amplifiers",
       "description": [
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "After being awarded the NYU Abu Dhabi summer internship grant of 3000 USD, I set out to Tokyo to work with Ei Wada and his Electronicos Fantasticos project. Electronicos Fantasticos is a project that aims “to reincarnate old electrical appliances as new electromagnetic instruments, invents new ways to play music, and co-create orchestras and festivals with diverse people and artist/musician Ei Wada.” I helped the team to perform at the Fuji Rock’ 22 Music Festival as well."
         },
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "Initially we were preparing to perform a version of the Bon Odori dance at the Fuji Rock festival. My work involved assisting with all the electronics at this time and there were instances I would also improvise on music compositions with the team. For Fuji Rock, we traveled with all our equipment from Tokyo to Naeba Ski Resort, in the Niigata prefecture of Japan. As our performance was late at night, we spent quite a bit of the evening setting up for the performance. "
+        },
+        {
+          "text": "It was a great and learning experience helping out with the preparation for Fuji Rock. After the team got done with Fuji Rock, I got involved more in the technical aspects of the project and started creating instruments like the barcode scanner or the electric fan harp. Even after leaving Japan, I have still been in touch with Wada-san and the rest of the team. We have also set-up a “WORLDWIDE Orchest Lab” to bring together musicians globally who are interested in creating instruments like the ones Electronicos Fantasticos makes. "
         }
       ],
       "media": [
         {
-          "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "link": "https://i.imgur.com/lkCgUfP.png",
           "type": "image",
-          "caption": "image 1"
+          "caption": "Us preparing for a Bon Odori performance at Fuji Rock"
         },
         {
-          "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",
+          "link": "https://i.imgur.com/hvSah5s.png",
+          "type": "image",
+          "caption": "A meeting at the shrine to combine tradtional instruments with electornic"
+        },
+        {
+          "link": "https://www.youtube.com/embed/m4FkYmwpMYE",
           "type": "video",
-          "caption": "video 2"
+          "caption": "A short improvisation with me on the Electric Fan Harp"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://i.imgur.com/mrkPhbK.png",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Creating a barcode scanner instrument"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://www.youtube.com/embed/uip466i8Kec",
+          "type": "video",
+          "caption": "Playing the barcode scanner I created"
+        },
+        {
+          "link": "https://i.imgur.com/aNTQplc.jpg",
           "type": "image",
-          "caption": "image 3"
+          "caption": "A CRTelecaster we worked on"
+        },
+        {
+          "link": "https://www.youtube.com/embed/OakYFQBiFcY",
+          "type": "video",
+          "caption": "Exploring the sounds of a new electronic device with Wada-san"
+        },
+        {
+          "link": "https://i.imgur.com/6hj4zGn.png",
+          "type": "image",
+          "caption": "Experimenting with the Electric Fan Harp's light system"
+        },
+        {
+          "link": "https://www.youtube.com/embed/M-05hiOEqC8",
+          "type": "video",
+          "caption": "Setting up before the Fuji Rock performance"
+        },
+        {
+          "link": "https://www.youtube.com/embed/IqBaU5mhl2I",
+          "type": "video",
+          "caption": "Combining both skates and barcodes together"
         }
       ]
     },
     {
       "name": "Faceshopping",
-      "tags": ["technology"],
-      "date": "June 2022",
-      "technology": "Cinema4D, Unity",
-      "sourceCode": "https://www.google.com",
+      "tags": ["augmented reality", "music", "technology", "new media"],
+      "date": "December 2022",
+      "technology": "Cinema4D, Meta Spark Studio",
+      "sourceCode": "https://github.com/AakSin/Faceshopping",
+      "liveLink": "https://www.instagram.com/ar/1794320447605221/",
       "description": [
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "Faceshopping is an instagram filter that recreates SOPHIE’s music video for Faceshopping in augmented reality. The music video covers themes of body dysmorphia especially with the lens of SOPHIE being a transgender individual. By turning the camera at the user, I aim to put them in SOPHIE’s place. The filter was presented in Berlin, Germany at “MANIFEST:IO – The Symposium for New Media & Electronic Art.”"
         },
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "header": "Conception",
+          "text": "SOPHIE’s Faceshopping music video has stuck with me ever since I saw it. It contains visuals of SOPHIE’s face being distorted while loud abrasive hyperpop/PC-music blares through. For this project, I wanted people to be able to experience these distortions and music on their face. I looked into a lot of AR platforms like Unity, Vuforia or Styly but realized Meta had created a pretty good solution for face filters."
+        },
+        {
+          "header": "Technical Implementation",
+          "text": "I imported the model of the face that Meta provides for the filter into Cinema4D. I added a PoseMorph tag to it and then set up keyframes with 6 different distortions. I exported this model into Meta Spark Studio. I used the frequency splitter node in Spark AR’s node graph then and passed SOPHIE”s Faceshopping through it. The middle frequencies were mapped to the intensity of the light and the back wall. The high frequencies were mapped to the direction and movement of the light. I wrote a simple javascript script after that to animate and cycle through all the distortions periodically and in a loop."
+        },
+        {
+          "header": "Exhibition",
+          "text": "The filter was part of TimeLab’s, a transmedia laboratory for artistic research in Berlin, MANIFEST:IO Symposium for New Media and Electronic Art in Berlin. I printed the poster pictured above and hung it around the venue. The work was exhibited among other transmedia and new media artists like TouchDesigner YoutTuber Bileam Tschepe (Elekktronaut). The exhibition occurred at Alte Muenze, a popular night club and an art venue in Berlin."
         }
       ],
       "media": [
         {
-          "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "link": "https://i.imgur.com/3KTBwho.png",
           "type": "image",
-          "caption": "image 1"
+          "caption": "The poster for Faceshopping at the MANIFEST:IO exhibition"
         },
         {
-          "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",
+          "link": "https://www.youtube.com/embed/_eCXYYLGoY0",
           "type": "video",
-          "caption": "video 2"
+          "caption": "A demo of the filter on my face"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://i.imgur.com/gSKyMFQ.png",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Cinema4D project file screenshot"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://i.imgur.com/7oDPt7f.png",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Meta Spark Studio file screenshot"
+        },
+        {
+          "link": "https://i.imgur.com/MXHY3nO.jpg",
+          "type": "image",
+          "caption": "A still from the Faceshopping music video by SOPHIE"
+        },
+        {
+          "link": "https://i.imgur.com/E7YezsD.png",
+          "type": "image",
+          "caption": "An in-app render of the filter"
         }
       ]
     },

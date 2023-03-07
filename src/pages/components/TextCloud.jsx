@@ -3,19 +3,11 @@ import React from "react";
 export default function TextCloud(props) {
   const wordProperties = [
     {
-      word: "technology",
+      word: "hardware",
       size: 1,
     },
     {
-      word: "arts",
-      size: 1,
-    },
-    {
-      word: "technology",
-      size: 1,
-    },
-    {
-      word: "arts",
+      word: "electronics",
       size: 1,
     },
     {
@@ -27,7 +19,47 @@ export default function TextCloud(props) {
       size: 1,
     },
     {
+      word: "music",
+      size: 1,
+    },
+    {
+      word: "sound",
+      size: 1,
+    },
+    {
+      word: "performance",
+      size: 1,
+    },
+    {
+      word: "augmented reality",
+      size: 1,
+    },
+    {
+      word: "new media",
+      size: 1,
+    },
+    {
       word: "technology",
+      size: 1,
+    },
+    {
+      word: "arts",
+      size: 1,
+    },
+    {
+      word: "music",
+      size: 1,
+    },
+    {
+      word: "arts",
+      size: 1,
+    },
+    {
+      word: "sound",
+      size: 1,
+    },
+    {
+      word: "performance",
       size: 1,
     },
     {

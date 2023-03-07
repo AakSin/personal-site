@@ -4,31 +4,38 @@ import Profile from "./profile.jpg";
 export default function About() {
   return (
     <div className="flex justify-center items-center flex-col px-8">
-      <img src={Profile} className="w-3/4 md:w-2/5 2xl:w-3/5"></img>
+      <img src={Profile} className="w-3/4 md:w-2/5"></img>
       <div className="w-5/6 md:w-3/4 pb-4">
         <p className="pt-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis
-          nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt
-          euismod magna, ac facilisis arcu congue in. Mauris sit amet
-          pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu
-          ad litora torquent per conubia nostra, per inceptos himenaeos. Cras
-          gravida diam ac sapien porta eleifend.
+          Aakarsh Singh (he/they) is a multi-disciplinary new media artist
+          hailing originally from India but now settled in the United Arab
+          Emirates. Aakarsh studies Interactive Media along with Sound and Music
+          Computing between New York University’s Abu Dhabi, Berlin and New York
+          campuses.
+        </p>
+        <p className="pt-4">
+          Aakarsh grew up interested in technology and the arts both, hence
+          leading them to pursue a major that would allow them to combine these
+          initially divulging interests - Interactive Media. With their studies
+          in Interactive Media, Aakarsh works between virtual reality, augmented
+          reality, artificial intelligence, sound-light installations and
+          interconnected multimedia websites. They aim to explore ideas of
+          postcolonial and queer identities by pushing at the boundaries of
+          these mediums.
         </p>
         <p className="py-4">
-          Aliquam efficitur feugiat quam, ac laoreet quam porttitor in. Proin
-          eget justo eget tortor vehicula tristique id a velit. Donec a leo
-          nibh. In porttitor mi ac urna faucibus, eget interdum sapien dapibus.
-          Praesent eleifend ligula ut nunc feugiat malesuada.
+          In their free time they play the guitar, make music and create digital
+          art.
         </p>
         <a
-          href="#"
+          href="https://github.com/AakSin"
           target="_blank"
           className="font-bold underline underline-offset-4"
         >
           GitHub
         </a>{" "}
         <a
-          href="#"
+          href="https://www.instagram.com/aakarsh.2/"
           target="_blank"
           className="font-bold underline underline-offset-4"
         >

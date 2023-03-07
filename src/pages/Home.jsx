@@ -19,7 +19,7 @@ export default function Home(props) {
         </h1>
       </div>
       <div className="min-h-screen w-full md:w-1/2 py-8 flex flex-col justify-center items-center">
-        <h2 className="text-center text-3xl font-bold cursor-pointer pb-8">
+        <h2 className="text-center text-3xl cursor-pointer pb-8">
           <span
             style={{ color: about ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)" }}
             onClick={() => {

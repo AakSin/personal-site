@@ -10,10 +10,12 @@ export default function Work(props) {
         {workData.data.map((work, key) => (
           <h3
             key={key}
-            className="cursor-pointer px-5 py-1"
+            className="cursor-pointer px-5 py-1 text-lg"
             style={{
               color:
-                work.name === currentWork ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.4)",
+                work.name === currentWork
+                  ? "rgba(0,0,0,1)"
+                  : "rgba(0,0,0,0.25)",
             }}
             onClick={() => {
               props.setWordList(work.tags);
