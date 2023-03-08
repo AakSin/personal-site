@@ -346,9 +346,9 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/2JwPppq.jpg",
+          "link": "https://i.imgur.com/C6RpsJy.png",
           "type": "image",
-          "caption": "Guitar tech still"
+          "caption": "Screenshot of website layout"
         },
         {
           "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/guitar.gif",
@@ -369,11 +369,6 @@
           "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/bass.gif",
           "type": "image",
           "caption": "Bass tech demo"
-        },
-        {
-          "link": "https://i.imgur.com/C6RpsJy.png",
-          "type": "image",
-          "caption": "Screenshot of website layout"
         },
         {
           "link": "https://www.youtube.com/embed/2_LWjRFyWSs?",
@@ -450,41 +445,57 @@
       ]
     },
     {
-      "name": "Symphonizer",
-      "tags": ["technology"],
-      "date": "June 2022",
-      "technology": "Cinema4D, Unity",
-      "sourceCode": "https://www.google.com",
+      "name": "Glitch Princess",
+      "tags": [
+        "technology",
+        "audio reactive",
+        "music",
+        "new media",
+        "arts",
+        "visualizers"
+      ],
+      "date": "March 2022",
+      "technology": "p5.js, JavaScript, Procreate",
+      "sourceCode": "https://github.com/AakSin/IntroToIM/tree/main/week5",
+      "liveLink": "https://aaksin.github.io/IntroToIM/week5/game",
       "description": [
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "text": "Glitch Princess is an audio-reactive video game set to Pocky Boy by Yeule. It involves a hand-drawn sprite of Yeule floating around in space while planets spawn to musical triggers. The player has to keep dodging these planets or their health lowers. The game finishes once the health reaches zero or the song finishes."
         },
         {
-          "header": "Planning",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis nulla imperdiet, pharetra nunc et, vestibulum nisi. Nullam tincidunt euismod magna, ac facilisis arcu congue in. Mauris sit amet pellentesque metus. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras gravida diam ac sapien porta eleifend."
+          "header": "Technical Implementation",
+          "text": "The background of the game is an audio-reactive star system which changes throughout the song. The planets are of three kinds - static, hand animated and procedurally generated. Each planet regardless, is also assigned random attributes like speed, size and trajectory."
+        },
+        {
+          "text": "The procedurally generated planets involve creating generative art using p5 and then applying it to circles using createGraphic(). The planets appear to be in motion using a procedurally generated smoke mask created by me. The planet spawn event is triggered upon crossing a certain frequency threshold. The trigger rate however changes depending on which part of the song we are on, as during the high energy parts I have applied limiters to not overcrowd the player with planets."
         }
       ],
       "media": [
         {
-          "link": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "link": "https://i.imgur.com/Ljfu1JA.png",
           "type": "image",
-          "caption": "image 1"
+          "caption": "Still from Glitch Princess"
         },
         {
-          "link": "https://tube.rvere.com/embed?v=7eB2bBNf1i0",
+          "link": "https://www.youtube.com/embed/6FN5UfUDAFQ",
           "type": "video",
-          "caption": "video 2"
+          "caption": "Playthrough of Glitch Princess"
+        },
+
+        {
+          "link": "https://camo.githubusercontent.com/780e237e682aaf6cd61613fbb9310d4cb06f9081cfeaeedda77dfb5359702204/68747470733a2f2f692e696d6775722e636f6d2f455241415576782e6a7067",
+          "type": "image",
+          "caption": "Conception of the game on paper"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://i.imgur.com/LHG0FIM.jpg",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Initial sprite drawn in Procreate"
         },
         {
-          "link": "https://images.unsplash.com/photo-1558389157-2e7920dc085c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "link": "https://github.com/AakSin/IntroToIM/raw/main/week5/assets/asteroid.png",
           "type": "image",
-          "caption": "image 3"
+          "caption": "Spritesheet for the hand drawn planet"
         }
       ]
     }
