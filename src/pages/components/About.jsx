@@ -38,6 +38,13 @@ export default function About() {
           className="font-bold underline underline-offset-4"
         >
           Instagram
+        </a>{" "}
+        <a
+          href="./Aakarsh Singh - resume.pdf"
+          target="_blank"
+          className="font-bold underline underline-offset-4"
+        >
+          Resume
         </a>
       </div>
     </div>
