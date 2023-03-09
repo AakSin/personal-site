@@ -26,12 +26,12 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/lkCgUfP.png",
+          "link": "../images/nicos/nicos1.png",
           "type": "image",
           "caption": "Us preparing for a Bon Odori performance at Fuji Rock"
         },
         {
-          "link": "https://i.imgur.com/hvSah5s.png",
+          "link": "../images/nicos/nicos2.png",
           "type": "image",
           "caption": "A meeting at the shrine to combine tradtional instruments with electornic"
         },
@@ -41,7 +41,7 @@
           "caption": "A short improvisation with me on the Electric Fan Harp"
         },
         {
-          "link": "https://i.imgur.com/mrkPhbK.png",
+          "link": "../images/nicos/nicos3.png",
           "type": "image",
           "caption": "Creating a barcode scanner instrument"
         },
@@ -51,7 +51,7 @@
           "caption": "Playing the barcode scanner I created"
         },
         {
-          "link": "https://i.imgur.com/aNTQplc.jpg",
+          "link": "../images/nicos/nicos4.jpg",
           "type": "image",
           "caption": "A CRTelecaster we worked on"
         },
@@ -61,7 +61,7 @@
           "caption": "Exploring the sounds of a new electronic device with Wada-san"
         },
         {
-          "link": "https://i.imgur.com/6hj4zGn.png",
+          "link": "../images/nicos/nicos5.png",
           "type": "image",
           "caption": "Experimenting with the Electric Fan Harp's light system"
         },
@@ -112,7 +112,7 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/3KTBwho.png",
+          "link": "../images/faceshopping/1.png",
           "type": "image",
           "caption": "The poster for Faceshopping at the MANIFEST:IO exhibition"
         },
@@ -122,22 +122,22 @@
           "caption": "A demo of the filter on my face"
         },
         {
-          "link": "https://i.imgur.com/gSKyMFQ.png",
+          "link": "../images/faceshopping/2.png",
           "type": "image",
           "caption": "Cinema4D project file screenshot"
         },
         {
-          "link": "https://i.imgur.com/7oDPt7f.png",
+          "link": "../images/faceshopping/3.png",
           "type": "image",
           "caption": "Meta Spark Studio file screenshot"
         },
         {
-          "link": "https://i.imgur.com/MXHY3nO.jpg",
+          "link": "../images/faceshopping/4.png",
           "type": "image",
           "caption": "A still from the Faceshopping music video by SOPHIE"
         },
         {
-          "link": "https://i.imgur.com/E7YezsD.png",
+          "link": "../images/faceshopping/5.png",
           "type": "image",
           "caption": "An in-app render of the filter"
         }
@@ -176,12 +176,12 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/6DDd2DA.png",
+          "link": "../images/aloegarten/1.png",
           "type": "image",
           "caption": "A still from the Peroxide scene"
         },
         {
-          "link": "https://i.imgur.com/og7BxpX.jpg",
+          "link": "../images/aloegarten/2.png",
           "type": "image",
           "caption": "A still from the AAA Powerline scene"
         },
@@ -191,27 +191,27 @@
           "caption": "A full walkthrough of aloegarten"
         },
         {
-          "link": "https://i.imgur.com/XfSOhui.png",
+          "link": "../images/aloegarten/3.png",
           "type": "image",
           "caption": "Conception sketches for AAA Powerline scene"
         },
         {
-          "link": "https://i.imgur.com/h922y93.png",
+          "link": "../images/aloegarten/4.png",
           "type": "image",
           "caption": "Conception sketches for a deleted scene"
         },
         {
-          "link": "https://i.imgur.com/VEHphL9.png",
+          "link": "../images/aloegarten/5.png",
           "type": "image",
           "caption": "A screenshot of the shader graph for the water"
         },
         {
-          "link": "https://i.imgur.com/A3GN9Ns.png",
+          "link": "../images/aloegarten/6.png",
           "type": "image",
           "caption": "A still from the Peroxide scene"
         },
         {
-          "link": "https://i.imgur.com/udxh6DE.jpg",
+          "link": "../images/aloegarten/7.png",
           "type": "image",
           "caption": "A still from the AAA Powerline scene"
         }
@@ -237,7 +237,7 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/RTQ4MOq.jpg",
+          "link": "../images/complateau/1.jpg",
           "type": "image",
           "caption": "Picture from project installation"
         },
@@ -289,17 +289,17 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/goT2vNA.png",
+          "link": "../images/realart/1.png",
           "type": "image",
           "caption": "Screenshot of project website"
         },
         {
-          "link": "https://i.imgur.com/zQ4ZggW.jpg",
+          "link": "../images/realart/2.png",
           "type": "image",
           "caption": "Renders by the AI"
         },
         {
-          "link": "https://i.imgur.com/3WsBBKZ.jpg",
+          "link": "../images/realart/3.png",
           "type": "image",
           "caption": "Renders by the AI"
         },
@@ -346,27 +346,27 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/C6RpsJy.png",
+          "link": "../images/camjam/1.png",
           "type": "image",
           "caption": "Screenshot of website layout"
         },
         {
-          "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/guitar.gif",
+          "link": "../images/camjam/2.gif",
           "type": "image",
           "caption": "Guitar tech demo"
         },
         {
-          "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/b65f157f0372bc4f5f68f41e459935d2.gif",
+          "link": "../images/camjam/3.gif",
           "type": "image",
           "caption": "Piano tech demo"
         },
         {
-          "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/drums.gif",
+          "link": "../images/camjam/4.gif",
           "type": "image",
           "caption": "Drum tech demo"
         },
         {
-          "link": "https://github.com/AakSin/aaksin-public/raw/main/camjam/bass.gif",
+          "link": "../images/camjam/5.gif",
           "type": "image",
           "caption": "Bass tech demo"
         },
@@ -413,7 +413,7 @@
       ],
       "media": [
         {
-          "link": "https://github.com/AakSin/aaksin-public/raw/main/genesis/3498ba743b114470404ecbc99d13ce0d.gif",
+          "link": "../images/genesis/1.gif",
           "type": "image",
           "caption": "Genesis Device Demo"
         },
@@ -438,7 +438,7 @@
           "caption": "Prototyping Genesis V2"
         },
         {
-          "link": "https://i.imgur.com/4poHKGx.jpg",
+          "link": "../images/genesis/2.png",
           "type": "image",
           "caption": "Picture of Genesis Controller"
         }
@@ -472,7 +472,7 @@
       ],
       "media": [
         {
-          "link": "https://i.imgur.com/Ljfu1JA.png",
+          "link": "../images/glitchprincess/1.png",
           "type": "image",
           "caption": "Still from Glitch Princess"
         },
@@ -483,17 +483,17 @@
         },
 
         {
-          "link": "https://camo.githubusercontent.com/780e237e682aaf6cd61613fbb9310d4cb06f9081cfeaeedda77dfb5359702204/68747470733a2f2f692e696d6775722e636f6d2f455241415576782e6a7067",
+          "link": "../images/glitchprincess/2.jpeg",
           "type": "image",
           "caption": "Conception of the game on paper"
         },
         {
-          "link": "https://i.imgur.com/LHG0FIM.jpg",
+          "link": "../images/glitchprincess/3.jpeg",
           "type": "image",
           "caption": "Initial sprite drawn in Procreate"
         },
         {
-          "link": "https://github.com/AakSin/IntroToIM/raw/main/week5/assets/asteroid.png",
+          "link": "../images/glitchprincess/4.png",
           "type": "image",
           "caption": "Spritesheet for the hand drawn planet"
         }
