@@ -217,47 +217,7 @@
         }
       ]
     },
-    {
-      "name": "Communication Plateau",
-      "tags": [
-        "audio reactive",
-        "installation",
-        "light",
-        "sound",
-        "technology",
-        "visualizers"
-      ],
-      "date": "December 2022",
-      "technology": "Kinect, TouchDesigner",
-      "sourceCode": "https://github.com/AakSin/CommunicationPlateau",
-      "description": [
-        {
-          "text": "Communication Plateau is an interactive sound and light installation derived from Plato’s Allegory of The Cave. Inspired by the imagery of projections on the wall as a metaphor for existence, I set out to simulate a similar visual language in this installation. The project involves a Kinect Azure pointed at the entrance of the exhibition. The Kinect then sends point cloud data into TouchDesigner. The point cloud data is then formatted and passed through various nodes like blur, feedback and threshold. These nodes are also mapped to an original soundtrack and depending on the frequency, the values in the node changes, creating an audio-reactive experience."
-        }
-      ],
-      "media": [
-        {
-          "link": "../images/complateau/1.jpg",
-          "type": "image",
-          "caption": "Picture from project installation"
-        },
-        {
-          "link": "https://www.youtube.com/embed/A8lEnJhtTaM",
-          "type": "video",
-          "caption": "First demo on screen"
-        },
-        {
-          "link": "https://www.youtube.com/embed/5oVOlH9Gxgw",
-          "type": "video",
-          "caption": "First demo on a projector"
-        },
-        {
-          "link": "https://www.youtube.com/embed/ihP8nLv5nsE",
-          "type": "video",
-          "caption": "Video from project installation"
-        }
-      ]
-    },
+
     {
       "name": "“Real” Art",
       "tags": ["technology", "installation", "artificial intelligence", "web"],
@@ -445,6 +405,55 @@
       ]
     },
     {
+      "name": "Komposition",
+      "tags": ["augmented reality", "technology", "new media"],
+      "date": "March - May 2022",
+      "technology": "Unity, C#",
+      "description": [
+        {
+          "text": "Komposition is an AR app that allows you to visualize German compound words in real space. The project is a surrealist take at exploring the absurdities inherent in our colloquial language. Using Komposition users can combine two german words, see a physical representation of this fusion and then place this word around them."
+        },
+        {
+          "header": "Conception",
+          "text": "The app started out as a project to investigate how one can visualize collections of objects that aren’t real. My teammate and I, during our German classes, started noticing the amount of compound words that exist in German. This is a subject that amuses both natives and new learners. With the lack of spaces in the middle and the ability to chain multiple words together, German compound words reach indefinable lengths. The absurdity of this phenomenon made it the final choice for our collection."
+        },
+        {
+          "header": "Technical Implementation",
+          "text": "The app is implemented using Unity’s AR foundation framework. A material has been created for word 1 and a model has been assigned for word 2. The program dynamically instantiates an object by combing the model and material, depending on the inputs selected. The user then gets to place this object around them by tapping the screen on the planes that have been detected by Unity. Using raycast collisions, a touch input on the object is detected again, allowing the user to edit (move, rotate, resize) the object."
+        },
+        {
+          "text": "Using Unity’s PlayerPrefs we keep a store of all the objects the user has unlocked so far. The user can then go and access this compendium again. They can track their progress in unlocking all objects, read more about the objects they have already unlocked and place them in the real world again from this page."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/komposition/1.png",
+          "type": "image",
+          "caption": "Hologram before object gets placed"
+        },
+        {
+          "link": "https://www.youtube.com/embed/kXxEMpsDIZ0",
+          "type": "video",
+          "caption": "A full working demo of the app"
+        },
+        {
+          "link": "../images/komposition/2.png",
+          "type": "image",
+          "caption": "Screen for combining words"
+        },
+        {
+          "link": "../images/komposition/3.png",
+          "type": "image",
+          "caption": "Work in progress shot while testing object instantiation on tap"
+        },
+        {
+          "link": "../images/komposition/4.png",
+          "type": "image",
+          "caption": "A screenshot of the Figma file"
+        }
+      ]
+    },
+    {
       "name": "Glitch Princess",
       "tags": [
         "technology",
@@ -496,6 +505,47 @@
           "link": "../images/glitchprincess/4.png",
           "type": "image",
           "caption": "Spritesheet for the hand drawn planet"
+        }
+      ]
+    },
+    {
+      "name": "Communication Plateau",
+      "tags": [
+        "audio reactive",
+        "installation",
+        "light",
+        "sound",
+        "technology",
+        "visualizers"
+      ],
+      "date": "December 2022",
+      "technology": "Kinect, TouchDesigner",
+      "sourceCode": "https://github.com/AakSin/CommunicationPlateau",
+      "description": [
+        {
+          "text": "Communication Plateau is an interactive sound and light installation derived from Plato’s Allegory of The Cave. Inspired by the imagery of projections on the wall as a metaphor for existence, I set out to simulate a similar visual language in this installation. The project involves a Kinect Azure pointed at the entrance of the exhibition. The Kinect then sends point cloud data into TouchDesigner. The point cloud data is then formatted and passed through various nodes like blur, feedback and threshold. These nodes are also mapped to an original soundtrack and depending on the frequency, the values in the node changes, creating an audio-reactive experience."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/complateau/1.jpg",
+          "type": "image",
+          "caption": "Picture from project installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/A8lEnJhtTaM",
+          "type": "video",
+          "caption": "First demo on screen"
+        },
+        {
+          "link": "https://www.youtube.com/embed/5oVOlH9Gxgw",
+          "type": "video",
+          "caption": "First demo on a projector"
+        },
+        {
+          "link": "https://www.youtube.com/embed/ihP8nLv5nsE",
+          "type": "video",
+          "caption": "Video from project installation"
         }
       ]
     }
