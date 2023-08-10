@@ -26,6 +26,13 @@ export default function About() {
           digital art.
         </p>
         <a
+          href="mailto:aakarsh@nyu.edu"
+          target="_blank"
+          className="font-bold underline underline-offset-4"
+        >
+          Email
+        </a>{" "}
+        <a
           href="https://github.com/AakSin"
           target="_blank"
           className="font-bold underline underline-offset-4"
