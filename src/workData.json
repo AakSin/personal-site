@@ -454,6 +454,31 @@
       ]
     },
     {
+      "name": "3D Renders",
+      "tags": [
+        "technology",
+        "audio reactive",
+        "music",
+        "new media",
+        "arts",
+        "visualizers"
+      ],
+
+      "technology": "Blender, Cinema4D, RedShift",
+      "description": [
+        {
+          "text": "A collection of stills and videos of 3D renders done for various projects."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/3Drenders/fatima/1.png",
+          "type": "image",
+          "caption": "Still from Glitch Princess"
+        }
+      ]
+    },
+    {
       "name": "Glitch Princess",
       "tags": [
         "technology",

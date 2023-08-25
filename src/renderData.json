@@ -1,61 +1,15 @@
 {
   "data": [
     {
-      "name": "Displacement Map",
-      "date": "May 2023",
-      "technology": "Blender",
-      "description": "Displacement map is a series of 3D renders meant to displace contemporary art from the comfort of the white cube, and place it among areas of nature or spirituality. Through these works, I aim to explore the confines of the white cube and the shift in perception when the environment of the object changes.",
-      "media": [
-        {
-          "link": "../images/3Drenders/displacement-map/forest-render.jpg",
-          "type": "image",
-          "caption": "Forest Render"
-        },
-        {
-          "link": "../images/3Drenders/displacement-map/temple-render.jpg",
-          "type": "image",
-          "caption": "Temple Render"
-        },
-        {
-          "link": "../images/3Drenders/displacement-map/aiweiwei.png",
-          "type": "image",
-          "caption": "Ai Wei Wei Cola"
-        }
-      ]
-    },
-    {
-      "name": "Displacement Map",
-      "date": "May 2023",
-      "technology": "Blender",
-      "description": "Displacement map is a series of 3D renders meant to displace contemporary art from the comfort of the white cube, and place it among areas of nature or spirituality. Through these works, I aim to explore the confines of the white cube and the shift in perception when the environment of the object changes.",
-      "media": [
-        {
-          "link": "../images/3Drenders/displacement-map/forest-render.jpg",
-          "type": "image",
-          "caption": "Forest Render"
-        },
-        {
-          "link": "../images/3Drenders/displacement-map/temple-render.jpg",
-          "type": "image",
-          "caption": "Temple Render"
-        },
-        {
-          "link": "../images/3Drenders/displacement-map/aiweiwei.png",
-          "type": "image",
-          "caption": "Ai Wei Wei Cola"
-        }
-      ]
-    },
-    {
       "name": "Cryoponics",
       "date": "June-July 2023",
       "technology": "Cinema4D, RedShift",
       "description": "Cryoponics aims to look at organic material from a...",
       "media": [
         {
-          "link": "../images/3Drenders/cryoponics/blue-2.jpg",
-          "type": "image",
-          "caption": "Forest Render"
+          "link": "https://www.youtube.com/embed/Q6qU-XivToU",
+          "type": "video",
+          "caption": "Ai Wei Wei Cola"
         },
         {
           "link": "../images/3Drenders/cryoponics/red.jpg",
@@ -72,8 +26,65 @@
           "type": "image",
           "caption": "Ai Wei Wei Cola"
         },
+
+        {
+          "link": "../images/3Drenders/cryoponics/blue-2.jpg",
+          "type": "image",
+          "caption": "Forest Render"
+        },
         {
           "link": "../images/3Drenders/cryoponics/yellow.jpg",
+          "type": "image",
+          "caption": "Ai Wei Wei Cola"
+        }
+      ]
+    },
+    {
+      "name": "Fatima (visualizer)",
+      "date": "June 2023 - ",
+      "technology": "Cinema4D, RedShift",
+      "description": "These renders aim to be made as visualizers for Ruhail Qaisar's debut album Fatima. The album covers themes of...",
+      "media": [
+        {
+          "link": "../images/3Drenders/fatima/1.png",
+          "type": "image",
+          "caption": "Forest Render"
+        },
+        {
+          "link": "../images/3Drenders/fatima/2.png",
+          "type": "image",
+          "caption": "Temple Render"
+        },
+        {
+          "link": "../images/3Drenders/fatima/3.png",
+          "type": "image",
+          "caption": "Ai Wei Wei Cola"
+        },
+        {
+          "link": "../images/3Drenders/fatima/4.png",
+          "type": "image",
+          "caption": "Ai Wei Wei Cola"
+        }
+      ]
+    },
+    {
+      "name": "Displacement Map",
+      "date": "May 2023",
+      "technology": "Blender",
+      "description": "Displacement map is a series of 3D renders meant to displace contemporary art from the comfort of the white cube, and place it among areas of nature or spirituality. Through these works, I aim to explore the confines of the white cube and the shift in perception when the environment of the object changes.",
+      "media": [
+        {
+          "link": "../images/3Drenders/displacement-map/forest-render.jpg",
+          "type": "image",
+          "caption": "Forest Render"
+        },
+        {
+          "link": "../images/3Drenders/displacement-map/temple-render.jpg",
+          "type": "image",
+          "caption": "Temple Render"
+        },
+        {
+          "link": "../images/3Drenders/displacement-map/aiweiwei.png",
           "type": "image",
           "caption": "Ai Wei Wei Cola"
         }

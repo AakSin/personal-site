@@ -60,10 +60,6 @@ export default function TextCloud(props) {
       size: 1,
     },
     {
-      word: "light",
-      size: 1,
-    },
-    {
       word: "web",
       size: 1,
     },
@@ -76,7 +72,7 @@ export default function TextCloud(props) {
       size: 1,
     },
     { word: "interconnected", size: 0.9 },
-  { word: "identity", size: 0.75 },
+    { word: "identity", size: 0.75 },
   ];
   return (
     <div>

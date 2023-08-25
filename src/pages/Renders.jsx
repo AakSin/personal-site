@@ -24,7 +24,7 @@ export default function Renders() {
         </h1>
       </div>
       {renderData.map((render, key) => (
-        <div>
+        <div key={key}>
           <div className="flex flex-col justify-center mt-10  text-center">
             <h2 className="text-xl md:text-3xl">{render.name}</h2>
             <h3 className="text-lg md:text-2xl">{render.date}</h3>
@@ -48,7 +48,7 @@ export default function Renders() {
               media.type === "image" ? (
                 <SwiperSlide
                   style={{ display: "flex" }}
-                  className="flex flex-col justify-center items-center px-0 md:px-5"
+                  className="flex flex-col justify-center items-center px-0 "
                   key={key}
                 >
                   <Zoom style={{ height: "100%", objectFit: "contain" }}>
@@ -71,7 +71,7 @@ export default function Renders() {
                 >
                   {/* <YouTubeEmbed link={media.link}></YouTubeEmbed> */}
                   <iframe
-                    style={{ height: "100%", width: "100%" }}
+                    style={{ width: "100%" }}
                     width="853"
                     height="480"
                     src={media.link}
