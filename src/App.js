@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import WorkMain from "./pages/WorkMain";
 import Error from "./pages/Error";
+import Renders from "./pages/Renders";
 
 export default function App() {
   let randomNumbers = [];
@@ -19,6 +20,7 @@ export default function App() {
           element={<Home randomNumbers={randomNumbers}></Home>}
         ></Route>
         <Route exact path="/work/:name" element={<WorkMain></WorkMain>}></Route>
+        <Route exact path="/3D-Renders" element={<Renders></Renders>}></Route>
         <Route path="*" element={<Error></Error>}></Route>
       </Routes>
     </Router>

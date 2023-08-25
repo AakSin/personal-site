@@ -44,3 +44,8 @@ code {
   animation-duration: 5s;
   animation-timing-function: ease-in;
 }
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}

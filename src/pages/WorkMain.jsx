@@ -16,7 +16,7 @@ import workData from "../workData.json";
 export default function WorkMain() {
   const { name } = useParams();
   const workInfo = workData.data.filter((work) => work.name === name)[0];
-  console.log(workInfo);
+
   return (
     <div className="min-min-h-screen py-12">
       <div className="px-8 md:px-32 ">
