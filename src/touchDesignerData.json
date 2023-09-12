@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "name": "Halation",
+      "name": "Postmemory v1",
       "date": "Week 1",
       "credits": "<a href=\"https://www.youtube.com/watch?v=7qSpJFidu60\" target=\"_blank\"> DnL - Oli XL</a>,   <a href=\"https://youtu.be/rGoCbVmGtPE\" target=\"_blank\"> Make Anything Audio Reactive – TouchDesigner</a>,  <a href=\"https://www.youtube.com/watch?v=OHNjDJW1kXk\" target=\"_blank\"> Using Hold in Touchdesigner to make art like justlinesssssssssss</a>",
       "description": [
@@ -11,7 +11,7 @@
         },
         {
           "header": "Debrief",
-          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations (leading to the project name) and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
+          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
         }
       ],
       "media": [
