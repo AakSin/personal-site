@@ -8,8 +8,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 // import required modules
 import { Navigation, Pagination } from "swiper";
-import renderData from "../renderData.json";
-renderData = renderData.data;
+import tdData from "../touchDesignerData.json";
+tdData = tdData.data;
 
 export default function Renders() {
   return (
@@ -20,10 +20,10 @@ export default function Renders() {
         </a>
         {/* <div className="w-full"> */}
         <h1 className="text-3xl md:text-5xl text-center px-2 md:px-0">
-          3D Renders
+          TouchDesigner
         </h1>
       </div>
-      {renderData.map((render, key) => (
+      {tdData.map((render, key) => (
         <div key={key}>
           <div className="flex flex-col justify-center mt-10  text-center">
             <h2 className="text-xl md:text-3xl">{render.name}</h2>
@@ -66,7 +66,7 @@ export default function Renders() {
               ) : (
                 <SwiperSlide
                   style={{ display: "flex" }}
-                  className="flex justify-center items-center  flex-col"
+                  className="flex justify-center items-center flex-col"
                   key={key}
                 >
                   {/* <YouTubeEmbed link={media.link}></YouTubeEmbed> */}
@@ -89,10 +89,19 @@ export default function Renders() {
           </Swiper>
           <div className="flex justify-center pt-4">
             <div className="md:w-1/2 w-5/6 text-lg">
-              <div>{render.description}</div>
+              {render.description.map((info) => (
+                <div>
+                  {info.header ? (
+                    <h3 className="font-bold pt-4">{info.header}</h3>
+                  ) : null}
+                  <p className="py-2">{info.text}</p>
+                </div>
+              ))}
               <p className="py-4">
-                <span className="font-bold">Made Using: </span>{" "}
-                {render.technology}
+                <span className="font-bold">Credits: </span>{" "}
+                <span
+                  dangerouslySetInnerHTML={{ __html: render.credits }}
+                ></span>
               </p>
             </div>
           </div>

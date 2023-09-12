@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import WorkMain from "./pages/WorkMain";
 import Error from "./pages/Error";
 import Renders from "./pages/Renders";
+import TouchDesigner from "./pages/TouchDesigner";
 
 export default function App() {
   let randomNumbers = [];
@@ -21,6 +22,11 @@ export default function App() {
         ></Route>
         <Route exact path="/work/:name" element={<WorkMain></WorkMain>}></Route>
         <Route exact path="/3D-Renders" element={<Renders></Renders>}></Route>
+        <Route
+          exact
+          path="/TouchDesigner"
+          element={<TouchDesigner></TouchDesigner>}
+        ></Route>
         <Route path="*" element={<Error></Error>}></Route>
       </Routes>
     </Router>

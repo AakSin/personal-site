@@ -15,6 +15,14 @@ code {
     monospace;
 }
 
+span > a {
+  text-underline-offset: 4px;
+
+  text-decoration-line: underline;
+  cursor: pointer;
+  /* font-weight: 700; */
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   color: black;

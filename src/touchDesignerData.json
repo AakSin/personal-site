@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "name": "Halation",
+      "date": "Week 1",
+      "credits": "<a href=\"https://www.youtube.com/watch?v=7qSpJFidu60\" target=\"_blank\"> DnL - Oli XL</a>,   <a href=\"https://youtu.be/rGoCbVmGtPE\" target=\"_blank\"> Make Anything Audio Reactive – TouchDesigner</a>,  <a href=\"https://www.youtube.com/watch?v=OHNjDJW1kXk\" target=\"_blank\"> Using Hold in Touchdesigner to make art like justlinesssssssssss</a>",
+      "description": [
+        {
+          "header": "Description",
+          "text": "Halation is a visualizer set to \"DnL\" by Oli XL  made using archival footage from my father’s handycam and my current digital camera. The video interplays between a memory of a childhood trip and a ride I am currently taking on the M - train. The exploration of postmemory and disintegration/dissolution of personal memory are themes that I have started to integrate more with my work recently. This assignment was an opportunity to keep working on overlaying, contrasting and fragmenting my memories."
+        },
+        {
+          "header": "Debrief",
+          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations (leading to the project name) and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
+        }
+      ],
+      "media": [
+        {
+          "link": "https://player.vimeo.com/video/863401818?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "type": "video",
+          "caption": "Final render"
+        },
+        {
+          "link": "https://www.youtube.com/embed/50e8jB4vLgM?si=LP_vLPm4DkdmFMYB",
+          "type": "video",
+          "caption": "TouchDesigner Set-up"
+        },
+        {
+          "link": "https://www.youtube.com/embed/y8NC_F8LLDk?si=0oKnR9WmXV-twv2U",
+          "type": "video",
+          "caption": "Early prototype with different layering of videos"
+        }
+      ]
+    }
+  ]
+}
