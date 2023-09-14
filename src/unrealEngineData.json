@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "name": "Submersible",
+      "date": "Week 1",
+      "credits": "<a href=\"https://lynkolight.gumroad.com/l/fabiz?layout=profile\" target=\"_blank\"> UE5:Underwater Blueprint V2</a>",
+      "description": [
+        {
+          "header": "Description",
+          "text": "Postmemory v1 is a visualizer set to \"DnL\" by Oli XL  made using archival footage from my father’s handycam and my current digital camera. The video interplays between a memory of a childhood trip and a ride I am currently taking on the M - train. The exploration of postmemory and disintegration/dissolution of personal memory are themes that I have started to integrate more with my work recently. This assignment was an opportunity to keep working on overlaying, contrasting and fragmenting my memories."
+        },
+        {
+          "header": "Debrief",
+          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
+        }
+      ],
+      "media": [
+        {
+          "link": "https://www.youtube.com/embed/KpMbYXyYs5c?si=5RWEdS72BaYyKItM",
+          "type": "video",
+          "caption": "Final render"
+        },
+        {
+          "link": "https://i.imgur.com/7FoOObT.png",
+          "type": "image",
+          "caption": "Still 1"
+        },
+        {
+          "link": "https://www.youtube.com/embed/GE8DRJAdHE0?si=DEA03UiwzCpKIPnn",
+          "type": "video",
+          "caption": "Performance Song"
+        },
+        {
+          "link": "https://i.imgur.com/t3M83Jv.png",
+          "type": "image",
+          "caption": "Still 2"
+        }
+      ]
+    }
+  ]
+}
