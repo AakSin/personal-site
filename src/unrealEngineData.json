@@ -3,15 +3,15 @@
     {
       "name": "Submersible",
       "date": "Week 1",
-      "credits": "<a href=\"https://lynkolight.gumroad.com/l/fabiz?layout=profile\" target=\"_blank\"> UE5:Underwater Blueprint V2</a>",
+      "credits": "<a href=\"https://lynkolight.gumroad.com/l/fabiz?layout=profile\" target=\"_blank\"> UE5:Underwater Blueprint V2</a>, other assets from Quixel MegaScans",
       "description": [
         {
           "header": "Description",
-          "text": "Postmemory v1 is a visualizer set to \"DnL\" by Oli XL  made using archival footage from my father’s handycam and my current digital camera. The video interplays between a memory of a childhood trip and a ride I am currently taking on the M - train. The exploration of postmemory and disintegration/dissolution of personal memory are themes that I have started to integrate more with my work recently. This assignment was an opportunity to keep working on overlaying, contrasting and fragmenting my memories."
+          "text": "The visuals involve a character falling from the sky and landing underwater. While underwater, the character is surrounded by oceanic rocks and flora. An infinite expansive ocean is an image I keep coming back to, as it helps me convey feelings of isolation, absence, and disorientation. This feeling/vision of being underwater further adds another dimension of distance, with a whole alien world and no words to communicate with. Using the fast blurred motion and low angle of the camera I aimed to add to the disorientation."
         },
         {
           "header": "Debrief",
-          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
+          "text": "Knowing I wanted to create an underwater scene, I started looking for ways to do it. I came across a blueprint (linked in credits) that generates beautiful oceans effortlessly. Using this as a stepping point, I started creating massive monolithic stone landscapes using Quixel Bridge and then added vibrant flora to add to the alienness of the scene. Hardware issues kept bogging me down and I wasn’t able to do everything I had set out to do. I was aiming to add oceanic alien fauna as well and then some more ethereal lighting and underwater fog. Given more time, I would aim to create ephemeral ruins in the ocean too."
         }
       ],
       "media": [
