@@ -33,9 +33,9 @@
       ]
     },
     {
-      "name": "Phosphene",
+      "name": "Doxylamine + Phosphene",
       "date": "Week 2",
-      "credits": "<a href=\"https://www.youtube.com/watch?v=7qSpJFidu60\" target=\"_blank\"> DnL - Oli XL</a>,   <a href=\"https://youtu.be/rGoCbVmGtPE\" target=\"_blank\"> Make Anything Audio Reactive – TouchDesigner</a>,  <a href=\"https://www.youtube.com/watch?v=OHNjDJW1kXk\" target=\"_blank\"> Using Hold in Touchdesigner to make art like justlinesssssssssss</a>",
+      "credits": "<a href=\"https://www.youtube.com/watch?v=-HK6OX7PhDY\" target=\"_blank\"> Phosphene - Tryce</a>,   <a href=\"https://www.youtube.com/watch?v=1FgJ842dyr4\" target=\"_blank\"> Abstract Speech Visualisation – TouchDesigner Tutorial 45</a>",
       "description": [
         {
           "header": "Description",
@@ -50,17 +50,27 @@
         {
           "link": "https://player.vimeo.com/video/865651950?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
           "type": "video",
-          "caption": "Final render"
+          "caption": "Solo render of Phosphene"
         },
         {
-          "link": "https://www.youtube.com/embed/50e8jB4vLgM?si=LP_vLPm4DkdmFMYB",
+          "link": "https://player.vimeo.com/video/866040836?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
           "type": "video",
-          "caption": "TouchDesigner Set-up"
+          "caption": "Final render for poster"
         },
         {
-          "link": "https://www.youtube.com/embed/y8NC_F8LLDk?si=0oKnR9WmXV-twv2U",
+          "link": "https://i.imgur.com/Zz9QIfP.png",
+          "type": "image",
+          "caption": "DreamDisc - Tryce cover"
+        },
+        {
+          "link": "https://www.youtube.com/embed/ebpRvQ3UZoo?si=5rxk3cj8DgLH98NI",
           "type": "video",
-          "caption": "Early prototype with different layering of videos"
+          "caption": "Node Graph for Phosphene"
+        },
+        {
+          "link": "https://i.imgur.com/vOZGcPz.png",
+          "type": "image",
+          "caption": "Moodboard + first draft in Figma"
         }
       ]
     }
