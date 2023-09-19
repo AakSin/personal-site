@@ -39,11 +39,17 @@
       "description": [
         {
           "header": "Description",
-          "text": "Postmemory v1 is a visualizer set to \"DnL\" by Oli XL  made using archival footage from my father’s handycam and my current digital camera. The video interplays between a memory of a childhood trip and a ride I am currently taking on the M - train. The exploration of postmemory and disintegration/dissolution of personal memory are themes that I have started to integrate more with my work recently. This assignment was an opportunity to keep working on overlaying, contrasting and fragmenting my memories."
+          "text": "Doxylamine is a poster for a concept ambient event in Berlin. It is set to a visualizer for the track Phosphene by Berlin-based sound artist Tryce. The visualizer phosphene involves flashes of lights phasing in and out dynamically to audio data. The text is being warped by a similar displacement and light adjustment mapped to audio."
+        },
+        {
+          "text": "Phosphene is described as an impression of light that occurs without light entering the eye. It is produced by pressure on the eyeball or through direct stimulation of the visual system other than by light. Through these visuals and typography, I aimed to work towards creating a similar transient and ephemeral visual language provided by both the track and the definition of the word."
         },
         {
           "header": "Debrief",
-          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
+          "text": "The project was a challenge in both its conception and technical stages. I created a list of 16 artists that I wished to create a concept poster for.  I spent my time after that collecting visual references of events these artists (or their scene-adjacents) had already taken part in. I then set out to assemble the layout, typography, and alignment on Figma."
+        },
+        {
+          "text": "After creating the visualizer for Phosphene, the hard part was compositing the text. Putting in simple non-reactive typography wouldn’t mesh well with the visualizer. Making the text bright and audio-reactive too, made the entire scene too overbearing. After some hit & trial and value adjustment, I was able to taper down on the fluidity of the text and make it more legible."
         }
       ],
       "media": [
