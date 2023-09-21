@@ -36,6 +36,43 @@
           "caption": "Still 2"
         }
       ]
+    },
+    {
+      "name": "MisMatch",
+      "date": "Week 2",
+      "credits": "<a href=\"https://lynkolight.gumroad.com/l/fabiz?layout=profile\" target=\"_blank\"> UE5:Underwater Blueprint V2</a>, other assets from Quixel MegaScans",
+      "description": [
+        {
+          "header": "Description",
+          "text": "This project explores the absurdities present in the nomenclature of various proper nouns in our colloquial languages. Through this scene, I conceived three fictional creatures by playing at their root nouns and placed them in a jungle setting. The creatures are Sea Dog ( German word for seal: Seehund), Earth Pig (aardvark: Erdferkel), and Ice Bear (Polar Bear: Eisbär). They are created by replacing the materials of these animal models with the materials of these elements."
+        },
+        {
+          "header": "Debrief",
+          "text": "The hardest part of this assignment for me was the composition and compositing of the scene. Getting the lighting right for a jungle scene and making the jungle scene look right was a tricky challenge. I played around with the landscape tool, auto landscape material, foliage tool, and tree packs but still, the scene looked too unnatural to me. I think playing with the exponential fog and post-process volume and giving it a warmer tone helped bring it closer to the vision in my head. I’d still like to learn how to get better at environmental lighting and create more natural-looking scenes."
+        }
+      ],
+      "media": [
+        {
+          "link": "https://www.youtube.com/embed/1FoMkutJQfc?si=_Uz3e-LiWEaqNpvP",
+          "type": "video",
+          "caption": "Final render"
+        },
+        {
+          "link": "https://i.imgur.com/7FoOObT.png",
+          "type": "image",
+          "caption": "Still 1"
+        },
+        {
+          "link": "https://i.imgur.com/fYFyiV2.png",
+          "type": "image",
+          "caption": "Still 2"
+        },
+        {
+          "link": "https://i.imgur.com/vX7X7gN.png",
+          "type": "image",
+          "caption": "Still 3"
+        }
+      ]
     }
   ]
 }
