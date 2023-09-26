@@ -3,21 +3,18 @@
     {
       "name": "Ponyboy",
       "date": "Week 3",
-      "credits": "<a href=\"https://www.youtube.com/watch?v=-HK6OX7PhDY\" target=\"_blank\"> Phosphene - Tryce</a>,   <a href=\"https://www.youtube.com/watch?v=1FgJ842dyr4\" target=\"_blank\"> Abstract Speech Visualisation – TouchDesigner Tutorial 45</a>",
+      "credits": "<a href=\"https://sketchfab.com/3d-models/horse-791844e912d0460d8e8951891158c696\" target=\"_blank\"> Horse 3D Model</a>,   <a href=\"https://sketchfab.com/3d-models/human-437f3f1507fd45c39492d39d2a44f010\" target=\"_blank\"> Human 3D Model</a>, <a href=\"https://www.youtube.com/watch?v=SEMBP_Y72so\" target=\"_blank\"> Horse Video</a>, <a href=\"https://www.youtube.com/watch?v=rhdom3koxZA\" target=\"_blank\"> Baseball Video</a>, <a href=\"https://www.youtube.com/watch?v=2EwQSCZ0Hs8\" target=\"_blank\"> Point Cloud Morphing Tutorial</a>, <a href=\"https://www.youtube.com/watch?v=sZKBDWZwY7U\" target=\"_blank\"> Tiling Tutorial</a> ",
       "description": [
         {
           "header": "Description",
-          "text": "Ponyboy is a visualizer to SOPHIE’s song with the same title. The video involves me manually switching between two scenes ( the individual scenes are music synced). The first scene involves a point cloud of a horse and a man being morphed to the music, with additional effects like glow + noise happening to the sound. The second clip is a tiled arrangement of two clips (a horse running and kids playing baseball) being arranged to a UV map that is changing to music. The concept involved abstracting what the words pony and boy stood for…"
+          "text": "Ponyboy is a visualizer to SOPHIE’s song with the same title. The video involves me manually switching between two scenes ( the individual scenes are music-synced though). The first scene involves a point cloud of a horse and a man being morphed to the music, with additional effects like glow + noise happening to the sound. The second clip is a tiled arrangement of two clips (a horse running and kids playing baseball) being arranged to a UV map that is changing to music."
         },
         {
-          "text": "Phosphene is described as an impression of light that occurs without light entering the eye. It is produced by pressure on the eyeball or through direct stimulation of the visual system other than by light. Through these visuals and typography, I aimed to work towards creating a similar transient and ephemeral visual language provided by both the track and the definition of the word."
+          "text": "With how repetitive and on-the-nose a lot of the lyricism associated with this song is, accompanied by the equally abrasive and repetitive production, I set out to make imagery that has a similar attack to it. The sub-words pony and boy are abstracted into point clouds first and then very simple video representations of them. The energy is imbibed into these clips through music-synced distortions of 2D and 3D space."
         },
         {
           "header": "Debrief",
-          "text": "The project was a challenge in both its conception and technical stages. I created a list of 16 artists that I wished to create a concept poster for.  I spent my time after that collecting visual references of events these artists (or their scene-adjacents) had already taken part in. I then set out to assemble the layout, typography, and alignment on Figma."
-        },
-        {
-          "text": "After creating the visualizer for Phosphene, the hard part was compositing the text. Putting in simple non-reactive typography wouldn’t mesh well with the visualizer. Making the text bright and audio-reactive too, made the entire scene too overbearing. After some hit & trial and value adjustment, I was able to taper down on the fluidity of the text and make it more legible."
+          "text": "The assignment helped me realize that I have started understanding TouchDesigner better as this is the first time I was able to translate a concept 1:1 from my head to the screen with TD. I usually follow tutorials and then play along with them till I come across something I like but this time I came up with the imagery first. Something I struggled with initially was making the 2D clip have energy and dynamism. Through a weird glitch wherein I mapped video 1 into the UV map that was tiling video 2 (shown in picture 4), I was able to create the intended effect. I would like to look into this “mistake” and understand it further and see how I can use it to my advantage, as the glitchy montage effect was something I quite enjoyed. On a more conceptual scale, I want to learn how to do more unique stuff with point clouds too as I feel a lot of TD PointCloud projects end up adopting a similar visual language."
         }
       ],
       "media": [
@@ -37,14 +34,9 @@
           "caption": "Point Cloud Nodes"
         },
         {
-          "link": "https://i.imgur.com/2tkwScD.png",
+          "link": "https://i.imgur.com/yncaqnY.png",
           "type": "image",
-          "caption": "Node Graph for Phosphene"
-        },
-        {
-          "link": "https://i.imgur.com/vOZGcPz.png",
-          "type": "image",
-          "caption": "Moodboard + first draft in Figma"
+          "caption": "Glitch tile map nodes"
         }
       ]
     },
