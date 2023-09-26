@@ -1,34 +1,50 @@
 {
   "data": [
     {
-      "name": "Postmemory v1",
-      "date": "Week 1",
-      "credits": "<a href=\"https://www.youtube.com/watch?v=7qSpJFidu60\" target=\"_blank\"> DnL - Oli XL</a>,   <a href=\"https://youtu.be/rGoCbVmGtPE\" target=\"_blank\"> Make Anything Audio Reactive – TouchDesigner</a>,  <a href=\"https://www.youtube.com/watch?v=OHNjDJW1kXk\" target=\"_blank\"> Using Hold in Touchdesigner to make art like justlinesssssssssss</a>",
+      "name": "Ponyboy",
+      "date": "Week 3",
+      "credits": "<a href=\"https://www.youtube.com/watch?v=-HK6OX7PhDY\" target=\"_blank\"> Phosphene - Tryce</a>,   <a href=\"https://www.youtube.com/watch?v=1FgJ842dyr4\" target=\"_blank\"> Abstract Speech Visualisation – TouchDesigner Tutorial 45</a>",
       "description": [
         {
           "header": "Description",
-          "text": "Postmemory v1 is a visualizer set to \"DnL\" by Oli XL  made using archival footage from my father’s handycam and my current digital camera. The video interplays between a memory of a childhood trip and a ride I am currently taking on the M - train. The exploration of postmemory and disintegration/dissolution of personal memory are themes that I have started to integrate more with my work recently. This assignment was an opportunity to keep working on overlaying, contrasting and fragmenting my memories."
+          "text": "Ponyboy is a visualizer to SOPHIE’s song with the same title. The video involves me manually switching between two scenes ( the individual scenes are music synced). The first scene involves a point cloud of a horse and a man being morphed to the music, with additional effects like glow + noise happening to the sound. The second clip is a tiled arrangement of two clips (a horse running and kids playing baseball) being arranged to a UV map that is changing to music. The concept involved abstracting what the words pony and boy stood for…"
+        },
+        {
+          "text": "Phosphene is described as an impression of light that occurs without light entering the eye. It is produced by pressure on the eyeball or through direct stimulation of the visual system other than by light. Through these visuals and typography, I aimed to work towards creating a similar transient and ephemeral visual language provided by both the track and the definition of the word."
         },
         {
           "header": "Debrief",
-          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
+          "text": "The project was a challenge in both its conception and technical stages. I created a list of 16 artists that I wished to create a concept poster for.  I spent my time after that collecting visual references of events these artists (or their scene-adjacents) had already taken part in. I then set out to assemble the layout, typography, and alignment on Figma."
+        },
+        {
+          "text": "After creating the visualizer for Phosphene, the hard part was compositing the text. Putting in simple non-reactive typography wouldn’t mesh well with the visualizer. Making the text bright and audio-reactive too, made the entire scene too overbearing. After some hit & trial and value adjustment, I was able to taper down on the fluidity of the text and make it more legible."
         }
       ],
       "media": [
         {
-          "link": "https://player.vimeo.com/video/863401818?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "link": "https://www.youtube.com/embed/-zIxW1DX7nw?si=IDBAqrW33kYhIjOR",
           "type": "video",
-          "caption": "Final render"
+          "caption": "Final render of Ponyboy"
         },
         {
-          "link": "https://www.youtube.com/embed/50e8jB4vLgM?si=LP_vLPm4DkdmFMYB",
+          "link": "https://player.vimeo.com/video/866040836?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
           "type": "video",
-          "caption": "TouchDesigner Set-up"
+          "caption": "Final render for poster"
         },
         {
-          "link": "https://www.youtube.com/embed/y8NC_F8LLDk?si=0oKnR9WmXV-twv2U",
+          "link": "https://i.imgur.com/Zz9QIfP.png",
+          "type": "image",
+          "caption": "DreamDisc - Tryce cover"
+        },
+        {
+          "link": "https://www.youtube.com/embed/ebpRvQ3UZoo?si=5rxk3cj8DgLH98NI",
           "type": "video",
-          "caption": "Early prototype with different layering of videos"
+          "caption": "Node Graph for Phosphene"
+        },
+        {
+          "link": "https://i.imgur.com/vOZGcPz.png",
+          "type": "image",
+          "caption": "Moodboard + first draft in Figma"
         }
       ]
     },
@@ -77,6 +93,38 @@
           "link": "https://i.imgur.com/vOZGcPz.png",
           "type": "image",
           "caption": "Moodboard + first draft in Figma"
+        }
+      ]
+    },
+    {
+      "name": "Postmemory v1",
+      "date": "Week 1",
+      "credits": "<a href=\"https://www.youtube.com/watch?v=7qSpJFidu60\" target=\"_blank\"> DnL - Oli XL</a>,   <a href=\"https://youtu.be/rGoCbVmGtPE\" target=\"_blank\"> Make Anything Audio Reactive – TouchDesigner</a>,  <a href=\"https://www.youtube.com/watch?v=OHNjDJW1kXk\" target=\"_blank\"> Using Hold in Touchdesigner to make art like justlinesssssssssss</a>",
+      "description": [
+        {
+          "header": "Description",
+          "text": "Postmemory v1 is a visualizer set to \"DnL\" by Oli XL  made using archival footage from my father’s handycam and my current digital camera. The video interplays between a memory of a childhood trip and a ride I am currently taking on the M - train. The exploration of postmemory and disintegration/dissolution of personal memory are themes that I have started to integrate more with my work recently. This assignment was an opportunity to keep working on overlaying, contrasting and fragmenting my memories."
+        },
+        {
+          "header": "Debrief",
+          "text": "I worked towards achieving a fluid dissipation between both footages, as that is how memory feels on a personal level. The ephemerality of this balance was shaped by the music, in both the sonic data it provided and the soundscape it presented. I managed to achieve this coming in and out of memory by using the audio-reactive noise as an alpha matte. However, at the time of composition of both clips, their interplay didn’t feel as smooth as I had wanted. Changing the blend mode to add on accident was a welcome surprise as it created halations and light effects in the footage. I’d like to keep working on making the shifts between the two realities appear more sub-conscious and for them to be more dream-like and fluid in their visual nature."
+        }
+      ],
+      "media": [
+        {
+          "link": "https://player.vimeo.com/video/863401818?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "type": "video",
+          "caption": "Final render"
+        },
+        {
+          "link": "https://www.youtube.com/embed/50e8jB4vLgM?si=LP_vLPm4DkdmFMYB",
+          "type": "video",
+          "caption": "TouchDesigner Set-up"
+        },
+        {
+          "link": "https://www.youtube.com/embed/y8NC_F8LLDk?si=0oKnR9WmXV-twv2U",
+          "type": "video",
+          "caption": "Early prototype with different layering of videos"
         }
       ]
     }
