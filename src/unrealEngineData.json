@@ -1,39 +1,29 @@
 {
   "data": [
     {
-      "name": "Submersible",
-      "date": "Week 1",
-      "credits": "<a href=\"https://lynkolight.gumroad.com/l/fabiz?layout=profile\" target=\"_blank\"> UE5:Underwater Blueprint V2</a>, other assets from Quixel MegaScans",
+      "name": "Fatima",
+      "date": "Week 3",
+      "credits": "<a href=\"https://sketchfab.com/3d-models/animated-dog-shiba-inu-9abfce885a834399b2c3ccaed51cd474\" target=\"_blank\"> Dog Model</a>, <a href=\"https://sketchfab.com/3d-models/piglet-8343f141936f4c799ed980a3c7c3ae27\" target=\"_blank\"> Piglet Model</a>,<a href=\"https://sketchfab.com/3d-models/bear-ce0d5eb86cf5459bb6bd20244cb44b27\" target=\"_blank\"> Bear Model</a>, <a href=\"https://www.texturecan.com/details/249/\" target=\"_blank\"> Ice Material</a>",
       "description": [
         {
           "header": "Description",
-          "text": "The visuals involve a character falling from the sky and landing underwater. While underwater, the character is surrounded by oceanic rocks and flora. An infinite expansive ocean is an image I keep coming back to, as it helps me convey feelings of isolation, absence, and disorientation. This feeling/vision of being underwater further adds another dimension of distance, with a whole alien world and no words to communicate with. Using the fast blurred motion and low angle of the camera I aimed to add to the disorientation."
+          "text": "This project explores the absurdities present in the nomenclature of various proper nouns in our colloquial languages. Through this scene, I conceived three fictional creatures by playing at their root nouns and placed them in a jungle setting. The creatures are Sea Dog ( German word for seal: Seehund), Earth Pig (aardvark: Erdferkel), and Ice Bear (Polar Bear: Eisbär). They are created by replacing the materials of these animal models with the materials of these elements."
         },
         {
           "header": "Debrief",
-          "text": "Knowing I wanted to create an underwater scene, I started looking for ways to do it. I came across a blueprint (linked in credits) that generates beautiful oceans effortlessly. Using this as a stepping point, I started creating massive monolithic stone landscapes using Quixel Bridge and then added vibrant flora to add to the alienness of the scene. Hardware issues kept bogging me down and I wasn’t able to do everything I had set out to do. I was aiming to add oceanic alien fauna as well and then some more ethereal lighting and underwater fog. Given more time, I would aim to create ephemeral ruins in the ocean too."
+          "text": "The hardest part of this assignment for me was the composition and compositing of the scene. Getting the lighting right for a jungle scene and making the jungle scene look right was a tricky challenge. I played around with the landscape tool, auto landscape material, foliage tool, and tree packs but still, the scene looked too unnatural to me. I think playing with the exponential fog and post-process volume and giving it a warmer tone helped bring it closer to the vision in my head. I’d still like to learn how to get better at environmental lighting and create more natural-looking scenes."
         }
       ],
       "media": [
         {
-          "link": "https://www.youtube.com/embed/KpMbYXyYs5c?si=5RWEdS72BaYyKItM",
+          "link": "https://youtu.be/xTM8qp4cY8M",
           "type": "video",
           "caption": "Final render"
         },
         {
-          "link": "https://i.imgur.com/7FoOObT.png",
+          "link": "https://i.imgur.com/PXOt79r.png",
           "type": "image",
           "caption": "Still 1"
-        },
-        {
-          "link": "https://www.youtube.com/embed/GE8DRJAdHE0?si=DEA03UiwzCpKIPnn",
-          "type": "video",
-          "caption": "Performance Song"
-        },
-        {
-          "link": "https://i.imgur.com/t3M83Jv.png",
-          "type": "image",
-          "caption": "Still 2"
         }
       ]
     },
@@ -71,6 +61,43 @@
           "link": "https://i.imgur.com/vX7X7gN.png",
           "type": "image",
           "caption": "Still 3"
+        }
+      ]
+    },
+    {
+      "name": "Submersible",
+      "date": "Week 1",
+      "credits": "<a href=\"https://lynkolight.gumroad.com/l/fabiz?layout=profile\" target=\"_blank\"> UE5:Underwater Blueprint V2</a>, other assets from Quixel MegaScans",
+      "description": [
+        {
+          "header": "Description",
+          "text": "The visuals involve a character falling from the sky and landing underwater. While underwater, the character is surrounded by oceanic rocks and flora. An infinite expansive ocean is an image I keep coming back to, as it helps me convey feelings of isolation, absence, and disorientation. This feeling/vision of being underwater further adds another dimension of distance, with a whole alien world and no words to communicate with. Using the fast blurred motion and low angle of the camera I aimed to add to the disorientation."
+        },
+        {
+          "header": "Debrief",
+          "text": "Knowing I wanted to create an underwater scene, I started looking for ways to do it. I came across a blueprint (linked in credits) that generates beautiful oceans effortlessly. Using this as a stepping point, I started creating massive monolithic stone landscapes using Quixel Bridge and then added vibrant flora to add to the alienness of the scene. Hardware issues kept bogging me down and I wasn’t able to do everything I had set out to do. I was aiming to add oceanic alien fauna as well and then some more ethereal lighting and underwater fog. Given more time, I would aim to create ephemeral ruins in the ocean too."
+        }
+      ],
+      "media": [
+        {
+          "link": "https://www.youtube.com/embed/KpMbYXyYs5c?si=5RWEdS72BaYyKItM",
+          "type": "video",
+          "caption": "Final render"
+        },
+        {
+          "link": "https://i.imgur.com/7FoOObT.png",
+          "type": "image",
+          "caption": "Still 1"
+        },
+        {
+          "link": "https://www.youtube.com/embed/GE8DRJAdHE0?si=DEA03UiwzCpKIPnn",
+          "type": "video",
+          "caption": "Performance Song"
+        },
+        {
+          "link": "https://i.imgur.com/t3M83Jv.png",
+          "type": "image",
+          "caption": "Still 2"
         }
       ]
     }
