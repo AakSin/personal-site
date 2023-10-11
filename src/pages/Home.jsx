@@ -4,7 +4,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import workData from "../workData.json";
 export default function Home(props) {
-  const [about, setAbout] = useState(true);
+  const [about, setAbout] = useState(false);
   const [wordList, setWordList] = useState([]);
 
   return (
@@ -21,16 +21,6 @@ export default function Home(props) {
       <div className="min-h-screen w-full md:w-1/2 py-8 flex flex-col justify-center items-center">
         <h2 className="text-center text-3xl cursor-pointer pb-8">
           <span
-            style={{ color: about ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)" }}
-            onClick={() => {
-              setAbout(true);
-              setWordList([]);
-            }}
-          >
-            about
-          </span>
-          {" | "}
-          <span
             style={{ color: !about ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)" }}
             onClick={() => {
               setAbout(false);
@@ -38,6 +28,16 @@ export default function Home(props) {
             }}
           >
             work
+          </span>
+          {" | "}
+          <span
+            style={{ color: about ? "rgba(0,0,0,1)" : "rgba(0,0,0,0.25)" }}
+            onClick={() => {
+              setAbout(true);
+              setWordList([]);
+            }}
+          >
+            about
           </span>
         </h2>
         {about ? <About></About> : <Work setWordList={setWordList}></Work>}
