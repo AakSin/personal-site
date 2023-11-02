@@ -1,6 +1,28 @@
 {
   "data": [
     {
+      "name": "Meta Meta Human",
+      "date": "Week 7",
+      "credits": "<a href=\"https://www.mixamo.com/#/?page=1&query=defeat&type=Motion%2CMotionPack\" target=\"_blank\"> Defeat Animation</a>, <a href=\"https://quixel.com/megascans/metahumans?category=metahumans_presets_ue5&assetId=2zj6kINw\" target=\"_blank\"> Metahuman Model</a>",
+      "description": [
+        {
+          "header": "Description",
+          "text": ""
+        },
+        {
+          "header": "Debrief",
+          "text": ""
+        }
+      ],
+      "media": [
+        {
+          "link": "https://www.youtube.com/embed/Ccj7-5hdtX4?si=0Rlp1Ul3UJ1Cp9l0",
+          "type": "video",
+          "caption": "Final render"
+        }
+      ]
+    },
+    {
       "name": "Atlantic Diva",
       "date": "Week 5",
       "credits": "<a href=\"https://sketchfab.com/3d-models/animated-dog-shiba-inu-9abfce885a834399b2c3ccaed51cd474\" target=\"_blank\"> Dog Model</a>, <a href=\"https://sketchfab.com/3d-models/piglet-8343f141936f4c799ed980a3c7c3ae27\" target=\"_blank\"> Piglet Model</a>,<a href=\"https://sketchfab.com/3d-models/bear-ce0d5eb86cf5459bb6bd20244cb44b27\" target=\"_blank\"> Bear Model</a>, <a href=\"https://www.texturecan.com/details/249/\" target=\"_blank\"> Ice Material</a>",
