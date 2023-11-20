@@ -21,10 +21,6 @@ export default function About() {
           fragmentation of collective memory is expressed in a visual style
           equally ephemeral, transient, and fractured.
         </p>
-        <p className="py-4">
-          In their free time, they play the guitar, make music, and sketch
-          characters.
-        </p>
         <a
           href="mailto:aakarsh@nyu.edu"
           target="_blank"
