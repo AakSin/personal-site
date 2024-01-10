@@ -13,13 +13,13 @@ export default function About() {
           York University’s Abu Dhabi, Berlin, and New York campuses.
         </p>
         <p className="pt-4">
-          With their studies in Interactive Media, they work between virtual
-          reality, augmented reality, artificial intelligence, sound-light
-          installations, and inter-connected multimedia websites. They aim to
-          explore post-colonial identity by delving into the recesses of
-          post-memory - personal and communal. This disintegration and
-          fragmentation of collective memory is expressed in a visual style
-          equally ephemeral, transient, and fractured.
+          With studies in Interactive Media, they work between virtual reality,
+          augmented reality, artificial intelligence, sound-light installations,
+          and inter-connected multimedia websites. They aim to explore
+          post-colonial identity by delving into the recesses of post-memory -
+          personal and communal. This disintegration and fragmentation of
+          collective memory is expressed in a visual style equally ephemeral,
+          transient, and fractured.
         </p>
         <a
           href="mailto:aakarsh@nyu.edu"
