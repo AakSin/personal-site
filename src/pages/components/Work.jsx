@@ -47,12 +47,12 @@ export default function Work(props) {
                 {work.technology}
               </p>
               <p className="pt-4">
-                {work.description[0].text.substring(0, 500) + ".. "}
+                {work.description[0].text.substring(0, 500) + "... "}
                 {work.name !== "3D Renders" ? (
                   <a
                     className="font-bold underline underline-offset-4"
                     href={"/work/" + work.name}
-                    target="_blank"
+                    // target="_blank"
                   >
                     Read More
                   </a>
@@ -60,7 +60,7 @@ export default function Work(props) {
                   <a
                     className="font-bold underline underline-offset-4"
                     href={"/3d-renders"}
-                    target="_blank"
+                    // target="_blank"
                   >
                     See More
                   </a>

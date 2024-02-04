@@ -1,6 +1,165 @@
 {
   "data": [
     {
+      "name": "NEEEU",
+      "tags": [
+        "hardware",
+        "electronics",
+        "music",
+        "sound",
+        "technology",
+        "performance",
+        "arts"
+      ],
+      "date": "May - July 2023",
+      "technology": "Meta Spark Studio, Unity, Shader Code, Cinema4D, Figma",
+      "description": [
+        {
+          "text": "During the summer of 2023, I undertook a two-month internship at NEEEU Spaces, a Berlin-based creative technology and design agency. In my capacity as a creative technologist, I actively contributed to a diverse array of projects. These included the development of a Unity prototype for a spatial audio-based game, the creation of character concepts in Cinema4D for a chat LLM-based application, and the finalization of responsive layouts in Figma for a museum installation. My biggest project however was working on an augmented reality advertisement for Sigur Rós affiliated perfume brand Fischersund, to be published in BMW’s yearly lifestyle magazine, Freude Forever."
+        },
+        {
+          "header": "Fredue Forever Flower",
+
+          "text": "The project started out with Fischersund sending out an initial concept and a render to us. The render involved this abstract floral entity surrounded with pearls to reflect the ethos behind Fischersund - creating scents based on memories and feelings rather than corporeal objects. With the creative director of NEEU, Raffael Moco Schiller, I set up a plan to create an Instagram filter using Meta Spark studio that would involve a series of animations going off and forming the flower when someone scans the flower’s picture in the magazine."
+        },
+        {
+          "text": "First, we set off to create a 2D ripple shader using Meta Spark’s node system. Then due to the memory/size limitations of creating a graphic-based application as an Instagram filter, we had to use a lot of workarounds. For example, to create the illusions of pearls I set up a billboard shader of flat circles which would track the rotation of the phone, hence giving the illusion of a sphere. After that, I had to write another shader that would mimic the refraction that a sphere does onto a flat circle by converting coordinates from world space to camera space and then passing the normal texture of a sphere into this calculation."
+        },
+        {
+          "text": "Bringing together the final shader involved finally animating the elements of the original flower sent to us by Fischersund. The stalks were animated to grow in Meta Spark Studio while to animate petal movement, we rigged them with bones and then set off animation clips that get triggered after the flower is formed. After prototyping this implementation and making it smoother and less buggy for Instagram, we handed this over to Fischersund who presented this in BMW’s magazine along with a render on <a href=\"https://www.bmw.com/en/magazine/freudeforever/freude-forever-magazine-issue1-seven-senses.html\" \" target=\"_blank\"> their website. </a> "
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/neeeu/1.jpeg",
+          "type": "image",
+          "caption": "Initial flower render sent from Fishcersund to NEEEU"
+        },
+        {
+          "link": "../images/neeeu/2.jpeg",
+          "type": "image",
+          "caption": "Still from prototype"
+        },
+        {
+          "link": "https://www.youtube.com/embed/aY_jOdWfwmY",
+          "type": "video",
+          "caption": "Final filter published on Instagram"
+        },
+        {
+          "link": "https://www.youtube.com/embed/IKPO6GcgdB8",
+          "type": "video",
+          "caption": "Final stylized render put on BMW website"
+        },
+
+        {
+          "link": "../images/neeeu/3.jpeg",
+          "type": "image",
+          "caption": "Concept charcter made in Cinema4D"
+        },
+        {
+          "link": "../images/neeeu/4.jpeg",
+          "type": "image",
+          "caption": "Concept charcter made in Cinema4D"
+        },
+        {
+          "link": "../images/neeeu/5.png",
+          "type": "image",
+          "caption": "Poster/still from Purple Friday (spatial audio game)"
+        }
+      ]
+    },
+    {
+      "name": "To Water A Dying Garden",
+      "tags": [
+        "hardware",
+        "electronics",
+        "interconnected",
+        "immersive",
+        "technology",
+        "new media",
+        "arts"
+      ],
+      "date": "November - December 2023",
+      "technology": "TouchDesigner, Arduino",
+      "description": [
+        {
+          "text": "\"To Water A Dying Garden\" is an immersive installation exploring the interplay of nature, technology, and human influence. Informed by Hegelian notions of nature as the unfolding of absolute spirit, the installation transforms dissonant point clouds into a vibrant garden as you lift a teapot and slowly water a solitary plant. This act mirrors Hegel's concept of simultaneous negation and preservation. As you nurture, the garden blossoms temporarily, symbolizing life's transient beauty and echoing Hegel's thoughts on the evolving nature of existence. To enhance the experience, another participant can shine light with their phone's flashlight on the growing garden, illuminating the collaborative dance between light and life."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The project operates using photoresisotrs, self-made switches, Arduino, and TouchDesigner. The first trigger is when the pot gets lifted up, a signal is sent to TouchDesigner spawning a new point cloud flower in the garden. This is done by a replicator system that instantiates a custom TouchDesigner component with random values (for color, size, position) that is linked to a new Geo node. Once you start watering the plant, the pointclouds start coming back together to form flowers by switching between two point cloud files. The photoresistors are then mapped to the Bloom TOP, deciding the threshold of the glow depening on how much light the plant receives. The point clouds when dispersed are in constant noise based movement, along with the camera. Future implementations of this installation in a bigger room, would involve tracking camera and motion to the movements of the crowd."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/toWater/1.jpg",
+          "type": "image",
+          "caption": "Audience interaction with installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/N5dPNEdEnvE",
+          "type": "video",
+          "caption": "Audience using the water prop to bring the point clouds together"
+        },
+        {
+          "link": "https://www.youtube.com/embed/kRAiUUrN4h8",
+          "type": "video",
+          "caption": "Documentation video from show"
+        },
+        {
+          "link": "https://www.youtube.com/embed/bfNiqKcE3A4",
+          "type": "video",
+          "caption": "Audience interaction"
+        },
+        {
+          "link": "https://www.youtube.com/embed/SopnBFCmEtQ",
+          "type": "video",
+          "caption": "Audeince interacting with light prop to change the bloom effect"
+        },
+        {
+          "link": "https://www.youtube.com/embed/a1ziQecXQ6E",
+          "type": "video",
+          "caption": "Audience interaction"
+        },
+        {
+          "link": "https://www.youtube.com/embed/6ozJphPfe3A",
+          "type": "video",
+          "caption": "Audience interaction"
+        },
+        {
+          "link": "../images/toWater/3.jpg",
+          "type": "image",
+          "caption": "Audience using the light prop"
+        },
+        {
+          "link": "../images/toWater/2.png",
+          "type": "image",
+          "caption": "File screenshot during installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/YPlURdo0zrA",
+          "type": "video",
+          "caption": "File recording during installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/kyYaKKzqk20",
+          "type": "video",
+          "caption": "Output capture during installation"
+        },
+        {
+          "link": "../images/toWater/4.jpg",
+          "type": "image",
+          "caption": "Early prototype of the hardware setup"
+        },
+        {
+          "link": "../images/toWater/5.png",
+          "type": "image",
+          "caption": "Screen capture of custom point cloud plant component made in TouchDesigner"
+        }
+      ]
+    },
+    {
       "name": "Electronicos Fantasticos",
       "tags": [
         "hardware",

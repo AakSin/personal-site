@@ -15,7 +15,8 @@ code {
     monospace;
 }
 
-span > a {
+span > a,
+p > a {
   text-underline-offset: 4px;
 
   text-decoration-line: underline;

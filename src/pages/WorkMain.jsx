@@ -118,7 +118,10 @@ export default function WorkMain() {
               {info.header ? (
                 <h3 className="font-bold pt-4">{info.header}</h3>
               ) : null}
-              <p className="py-2">{info.text}</p>
+              <p
+                dangerouslySetInnerHTML={{ __html: info.text }}
+                className="py-2"
+              ></p>
             </div>
           ))}
         </div>
