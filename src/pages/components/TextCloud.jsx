@@ -72,7 +72,8 @@ export default function TextCloud(props) {
       size: 1,
     },
     { word: "interconnected", size: 0.9 },
-    { word: "identity", size: 0.75 },
+    { word: "identity", size: 0.9 },
+    { word: "memory", size: 0.9 },
   ];
   return (
     <div>
