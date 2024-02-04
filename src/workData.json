@@ -1,6 +1,318 @@
 {
   "data": [
     {
+      "name": "NEEEU",
+      "tags": [
+        "hardware",
+        "electronics",
+        "music",
+        "sound",
+        "technology",
+        "performance",
+        "arts"
+      ],
+      "date": "May - July 2023",
+      "technology": "Meta Spark Studio, Unity, Shader Code, Cinema4D, Figma",
+      "description": [
+        {
+          "text": "During the summer of 2023, I undertook a two-month internship at NEEEU Spaces, a Berlin-based creative technology and design agency. In my capacity as a creative technologist, I actively contributed to a diverse array of projects. These included the development of a Unity prototype for a spatial audio-based game, the creation of character concepts in Cinema4D for a chat LLM-based application, and the finalization of responsive layouts in Figma for a museum installation. My biggest project however was working on an augmented reality advertisement for Sigur Rós affiliated perfume brand Fischersund, to be published in BMW’s yearly lifestyle magazine, Freude Forever."
+        },
+        {
+          "header": "Fredue Forever Flower",
+
+          "text": "The project started out with Fischersund sending out an initial concept and a render to us. The render involved this abstract floral entity surrounded with pearls to reflect the ethos behind Fischersund - creating scents based on memories and feelings rather than corporeal objects. With the creative director of NEEU, Raffael Moco Schiller, I set up a plan to create an Instagram filter using Meta Spark studio that would involve a series of animations going off and forming the flower when someone scans the flower’s picture in the magazine."
+        },
+        {
+          "text": "First, we set off to create a 2D ripple shader using Meta Spark’s node system. Then due to the memory/size limitations of creating a graphic-based application as an Instagram filter, we had to use a lot of workarounds. For example, to create the illusions of pearls I set up a billboard shader of flat circles which would track the rotation of the phone, hence giving the illusion of a sphere. After that, I had to write another shader that would mimic the refraction that a sphere does onto a flat circle by converting coordinates from world space to camera space and then passing the normal texture of a sphere into this calculation."
+        },
+        {
+          "text": "Bringing together the final shader involved finally animating the elements of the original flower sent to us by Fischersund. The stalks were animated to grow in Meta Spark Studio while to animate petal movement, we rigged them with bones and then set off animation clips that get triggered after the flower is formed. After prototyping this implementation and making it smoother and less buggy for Instagram, we handed this over to Fischersund who presented this in BMW’s magazine along with a render on <a href=\"https://www.bmw.com/en/magazine/freudeforever/freude-forever-magazine-issue1-seven-senses.html\" \" target=\"_blank\"> their website. </a> "
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/neeeu/1.jpeg",
+          "type": "image",
+          "caption": "Initial flower render sent from Fishcersund to NEEEU"
+        },
+        {
+          "link": "../images/neeeu/2.jpeg",
+          "type": "image",
+          "caption": "Still from prototype"
+        },
+        {
+          "link": "https://www.youtube.com/embed/aY_jOdWfwmY",
+          "type": "video",
+          "caption": "Final filter published on Instagram"
+        },
+        {
+          "link": "https://www.youtube.com/embed/IKPO6GcgdB8",
+          "type": "video",
+          "caption": "Final stylized render put on BMW website"
+        },
+
+        {
+          "link": "../images/neeeu/3.jpeg",
+          "type": "image",
+          "caption": "Concept charcter made in Cinema4D"
+        },
+        {
+          "link": "../images/neeeu/4.jpeg",
+          "type": "image",
+          "caption": "Concept charcter made in Cinema4D"
+        },
+        {
+          "link": "../images/neeeu/5.png",
+          "type": "image",
+          "caption": "Poster/still from Purple Friday (spatial audio game)"
+        }
+      ]
+    },
+    {
+      "name": "To Water A Dying Garden",
+      "tags": [
+        "hardware",
+        "electronics",
+        "interconnected",
+        "immersive",
+        "technology",
+        "new media",
+        "arts"
+      ],
+      "date": "November - December 2023",
+      "technology": "TouchDesigner, Arduino",
+      "description": [
+        {
+          "text": "\"To Water A Dying Garden\" is an immersive installation exploring the interplay of nature, technology, and human influence. Informed by Hegelian notions of nature as the unfolding of absolute spirit, the installation transforms dissonant point clouds into a vibrant garden as you lift a teapot and slowly water a solitary plant. This act mirrors Hegel's concept of simultaneous negation and preservation. As you nurture, the garden blossoms temporarily, symbolizing life's transient beauty and echoing Hegel's thoughts on the evolving nature of existence. To enhance the experience, another participant can shine light with their phone's flashlight on the growing garden, illuminating the collaborative dance between light and life."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The project operates using photoresisotrs, self-made switches, Arduino, and TouchDesigner. The first trigger is when the pot gets lifted up, a signal is sent to TouchDesigner spawning a new point cloud flower in the garden. This is done by a replicator system that instantiates a custom TouchDesigner component with random values (for color, size, position) that is linked to a new Geo node. Once you start watering the plant, the pointclouds start coming back together to form flowers by switching between two point cloud files. The photoresistors are then mapped to the Bloom TOP, deciding the threshold of the glow depening on how much light the plant receives. The point clouds when dispersed are in constant noise based movement, along with the camera. Future implementations of this installation in a bigger room, would involve tracking camera and motion to the movements of the crowd."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/toWater/1.jpg",
+          "type": "image",
+          "caption": "Audience interaction with installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/N5dPNEdEnvE",
+          "type": "video",
+          "caption": "Audience using the water prop to bring the point clouds together"
+        },
+        {
+          "link": "https://www.youtube.com/embed/kRAiUUrN4h8",
+          "type": "video",
+          "caption": "Documentation video from show"
+        },
+        {
+          "link": "https://www.youtube.com/embed/bfNiqKcE3A4",
+          "type": "video",
+          "caption": "Audience interaction"
+        },
+        {
+          "link": "https://www.youtube.com/embed/SopnBFCmEtQ",
+          "type": "video",
+          "caption": "Audeince interacting with light prop to change the bloom effect"
+        },
+        {
+          "link": "https://www.youtube.com/embed/a1ziQecXQ6E",
+          "type": "video",
+          "caption": "Audience interaction"
+        },
+        {
+          "link": "https://www.youtube.com/embed/6ozJphPfe3A",
+          "type": "video",
+          "caption": "Audience interaction"
+        },
+        {
+          "link": "../images/toWater/3.jpg",
+          "type": "image",
+          "caption": "Audience using the light prop"
+        },
+        {
+          "link": "../images/toWater/2.png",
+          "type": "image",
+          "caption": "File screenshot during installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/YPlURdo0zrA",
+          "type": "video",
+          "caption": "File recording during installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/kyYaKKzqk20",
+          "type": "video",
+          "caption": "Output capture during installation"
+        },
+        {
+          "link": "../images/toWater/4.jpg",
+          "type": "image",
+          "caption": "Early prototype of the hardware setup"
+        },
+        {
+          "link": "../images/toWater/5.png",
+          "type": "image",
+          "caption": "Screen capture of custom point cloud plant component made in TouchDesigner"
+        }
+      ]
+    },
+    {
+      "name": "FAT32 Loss Protocol",
+      "tags": [
+        "hardware",
+        "electronics",
+        "interconnected",
+        "immersive",
+        "technology",
+        "new media",
+        "arts",
+        "performance",
+        "identity",
+        "memory"
+      ],
+      "date": "October - November 2023",
+      "technology": "TouchDesigner, Arduino, GLSL",
+      "description": [
+        {
+          "text": "\"Do you remember everything that has ever happened to you?\" / FAT32 Loss Protocol is an AV performance project that explores the degeneration of memory generated by trauma by virtue of taking autonomy back over this process. The performance involves me drilling and hammering internal hard drives which glitches up memories of my childhood on my screen and transitions between them as one gets “successfully corrupted”."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The project involves a wide pressure sensor connected to the hard drive being hammered and a small pressure sensor connected to the drill’s trigger. Upon pressing the drill, the value of the “datamosh variable” in the shader increments in a TouchDesigner GLSL patch. Afterwards, when I realize that I have successfully glitched out this memory, I start hammering the other hard drive which starts generating a noised tiled pattern whose threshold increases more towards white as I keep hammering it. Upon several hammer strokes, the noise pattern becomes fully white bringing out the new memory on screen and resetting the datamosh variable so I can continue corrupting the new memory."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/fat32/1.jpg",
+          "type": "image",
+          "caption": "Performance capture 1"
+        },
+        {
+          "link": "https://www.youtube.com/embed/YyDWmZYocxg",
+          "type": "video",
+          "caption": "Full Performance"
+        },
+        {
+          "link": "https://www.youtube.com/embed/Xo62KMSpHxU",
+          "type": "video",
+          "caption": "Screen capture during performance"
+        },
+        {
+          "link": "../images/fat32/2.jpg",
+          "type": "image",
+          "caption": "Performance capture 2"
+        },
+        {
+          "link": "https://www.youtube.com/embed/KRRFWpQsM4M",
+          "type": "video",
+          "caption": "Performance highlight 1"
+        },
+        {
+          "link": "https://www.youtube.com/embed/dCoe-ContOE",
+          "type": "video",
+          "caption": "Performance highlight 2"
+        },
+
+        {
+          "link": "https://www.youtube.com/embed/9_fkD_fJs9c",
+          "type": "video",
+          "caption": "Performance highlight 3"
+        },
+        {
+          "link": "https://www.youtube.com/embed/z4vzssLRLSs",
+          "type": "video",
+          "caption": "Performance highlight 4"
+        },
+        {
+          "link": "../images/fat32/3.jpg",
+          "type": "image",
+          "caption": "All tools used for performance"
+        }
+      ]
+    },
+    {
+      "name": "In Loving Memory Of",
+      "tags": [
+        "sound",
+        "music",
+        "immersive",
+        "technology",
+        "new media",
+        "arts",
+        "performance",
+        "identity",
+        "memory"
+      ],
+      "date": "October - November 2023",
+      "technology": "Unreal Engine, Ableton, Max MSP",
+      "description": [
+        {
+          "text": "In Loving Memory is a live A/V performance piece created for an eponymous original track using Unreal Engine, Ableton, and MaxMSP. The visuals are an immersive environment extension of the sonic and lyrical elements in the song, to bring about a cohesive experience for the audience depicting a windy, stormy, and chaotic shore scene synced to the music."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The live performance was broken down into three acts - setting up the background/ambiance using a heavily delayed guitar, playing the lead guitar on top of it, and doing vocals to bring the performance to an end. I set up an equivalent narrative progression for each of these acts in Unreal Engine then. Using the envelope follower in Ableton on each of the individual channels, sending that through a Max UDPsend node, and then receiving it in Unreal Engine using a UDP server blueprint."
+        },
+        {
+          "text": "The background guitar influences the water dynamics, and upon reaching certain thresholds the water would get more turbulent. This was done by setting up a mobile invisible collision object in a Niagara fluids pool system. Then the lead guitar maps to a Niagara debris system and affects the spawn rate of the debris particle, amping them up on certain frequencies. The vocals then map to the lightning, triggering flashes in the weather system whenever my voice crosses a certain threshold."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/inLoving/1.jpg",
+          "type": "image",
+          "caption": "Image from performance"
+        },
+        {
+          "link": "https://www.youtube.com/embed/5LKl7OtqcDE",
+          "type": "video",
+          "caption": "Full Performance"
+        },
+        {
+          "link": "https://www.youtube.com/embed/vya_bEZ0-lI",
+          "type": "video",
+          "caption": "Screen capture during performance"
+        },
+
+        {
+          "link": "https://www.youtube.com/embed/ZEVd9IJEzLg",
+          "type": "video",
+          "caption": "Background Guitar"
+        },
+        {
+          "link": "https://www.youtube.com/embed/7gMTC8qUh80",
+          "type": "video",
+          "caption": "Lead Guitar"
+        },
+
+        {
+          "link": "https://www.youtube.com/embed/Wh3zhIBbjiA",
+          "type": "video",
+          "caption": "Vocals"
+        },
+        {
+          "link": "https://www.youtube.com/embed/lBVQ5n7peAc",
+          "type": "video",
+          "caption": "First test performance"
+        },
+        {
+          "link": "../images/inLoving/2.png",
+          "type": "image",
+          "caption": "Early environment render"
+        },
+        {
+          "link": "https://www.youtube.com/embed/nndjatKuYmQ",
+          "type": "video",
+          "caption": "Early environment screen capture"
+        }
+      ]
+    },
+    {
       "name": "Electronicos Fantasticos",
       "tags": [
         "hardware",
