@@ -9,10 +9,11 @@
         "sound",
         "technology",
         "performance",
-        "arts"
+        "arts",
+        "game engine"
       ],
       "date": "May - July 2023",
-      "technology": "Meta Spark Studio, Unity, Shader Code, Cinema4D, Figma",
+      "technology": "Meta Spark Studio, Unity, GLSL, Cinema4D, Figma",
       "description": [
         {
           "text": "During the summer of 2023, I undertook a two-month internship at NEEEU Spaces, a Berlin-based creative technology and design agency. In my capacity as a creative technologist, I actively contributed to a wide variety of projects. These included the development of a Unity prototype for a spatial audio-based game, the creation of character concepts in Cinema4D for a chat LLM-based application, and the finalization of responsive layouts in Figma for a museum installation. My biggest project however was working on an augmented reality advertisement for Sigur Rós affiliated perfume brand Fischersund, to be published in BMW’s yearly lifestyle magazine, Freude Forever."
@@ -245,7 +246,8 @@
         "arts",
         "performance",
         "identity",
-        "memory"
+        "memory",
+        "game engine"
       ],
       "date": "October - November 2023",
       "technology": "Unreal Engine, Ableton, Max MSP",
@@ -309,6 +311,258 @@
           "link": "https://www.youtube.com/embed/nndjatKuYmQ",
           "type": "video",
           "caption": "Early environment screen capture"
+        }
+      ]
+    },
+    {
+      "name": "Abandoned Hotels of Zangsti",
+      "tags": [
+        "sound",
+        "music",
+        "visualizers",
+        "technology",
+        "new media",
+        "arts",
+        "identity",
+        "memory",
+        "game engine"
+      ],
+      "date": "September - October 2023",
+      "technology": "Unreal Engine, Cineam4D, RedShift",
+      "description": [
+        {
+          "text": "Set to “Abandoned Hotels of Zangsti” by Indian sound artist Ruhail Qaisar, the visual aims to be an extension of the psycho-ecological decay introduced by the soundscape. Through the haunting drones brought forward from the exploration of the slow loss of his hometown, I bring forward imagery of a frigid mountainous landscape going through deterioration and decay.  A descent into a foggy lake with fossils and lotuses, a first-person experience of disassociation of the land beneath, and a closing shot of the gradual collapse of the landmarks, work together to tell this story of postcolonial decay."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The lake is set up through Unreal Engine’s fluid system and the fossils float on it using the parameters provided for setting up buoyancy. The disassociation of the land beneath the character happens by adding a Niagara particle system around the static mesh of the land. The final shot of the buildings being destroyed is generated through the chaos system provided by Unreal and then the debris along with the smoke is the result of Niagara systems attached to the chaos clusters."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/abandonedHotels/particle.png",
+          "type": "image",
+          "caption": "Disinteragation exploration 1 in Cinema4D + Redshift (particle)"
+        },
+        {
+          "link": "https://player.vimeo.com/video/871618358?h=4a586d07e",
+          "type": "video",
+          "caption": "Final Unreal Engine render"
+        },
+        {
+          "link": "../images/abandonedHotels/cave.png",
+          "type": "image",
+          "caption": "Cave light render in Cinema4D + Redshift"
+        },
+
+        {
+          "link": "../images/abandonedHotels/liquid.png",
+          "type": "image",
+          "caption": "WIP shot of disinteragation exploration 2 in Cinema4D (liquid)"
+        },
+        {
+          "link": "../images/abandonedHotels/caveLight.png",
+          "type": "image",
+          "caption": "Cave light search in Cinema4D"
+        },
+        {
+          "link": "https://www.youtube.com/embed/xTM8qp4cY8M",
+          "type": "video",
+          "caption": "Early failed buoyancy tests in Unreal Engine"
+        },
+        {
+          "link": "../images/abandonedHotels/caveFragment.png",
+          "type": "image",
+          "caption": "WIP shot of cave in Cinema4D"
+        },
+        {
+          "link": "../images/abandonedHotels/fragment.png",
+          "type": "image",
+          "caption": "Disinteragation exploration 2 in Cinema4D + Redshift (fragments)"
+        },
+        {
+          "link": "../images/abandonedHotels/wipUE.png",
+          "type": "image",
+          "caption": "Early environment set-up in Unreal Engine"
+        },
+        {
+          "link": "../images/abandonedHotels/wipFragment.png",
+          "type": "image",
+          "caption": "WIP shot of disinteragation exploration 2 in Cinema4D (particle)"
+        }
+      ]
+    },
+    {
+      "name": "PXE",
+      "tags": [
+        "sound",
+        "music",
+        "visualizers",
+        "technology",
+        "new media",
+        "arts",
+        "identity",
+        "memory"
+      ],
+      "date": "October - November 2023",
+      "technology": "Maya, Arnold, Adobe After Effects, Adobe Premiere Pro",
+      "description": [
+        {
+          "text": "\"Turn inside out to the outside in. Turn inside out to the outside within\". Building up on Swedish artist Ecco2k's work, this sequence aims to keep exploring themes of dissonance, fragmentation of self, and true identity/identities. The lyricism and sonic elements present in Ecco2k’s oeuvre prompted me to create a dissonant and harsh sequence of blinding violent lights, surreal landscapes, and deteriorating bodies. By melding these experimental visuals with Ecco2k's compelling sonic universe, I aimed to keep building up on previous and present works that interweave identity, memory, and deterioration."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The first sequence of the lights swinging from the rooftop utilizes Maya’s system of MASH networks coupled with nHair and nConstraints. Each string hanging from the top is then provided some random turbulence and the camera orbits this room in swift movements. The landscape of electric towers involves creating a material for the surface that utilizes noise to intersperse a highly reflective surface (the puddles) with the alien terrain. The final shot of the barbed wire entity unraveling is animated using blend shapes in Maya."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/pxe/2.png",
+          "type": "image",
+          "caption": "Environment scene still"
+        },
+        {
+          "link": "https://player.vimeo.com/video/883771985",
+          "type": "video",
+          "caption": "Final render"
+        },
+        {
+          "link": "../images/pxe/3.jpg",
+          "type": "image",
+          "caption": "Light scene still"
+        },
+
+        {
+          "link": "../images/pxe/1.jpg",
+          "type": "image",
+          "caption": "Detanglement scene still"
+        },
+        {
+          "link": "https://www.youtube.com/embed/UZPrLEAJa_g",
+          "type": "video",
+          "caption": "WIP playblast"
+        },
+        {
+          "link": "../images/pxe/4.png",
+          "type": "image",
+          "caption": "WIP light scene / early render"
+        },
+        {
+          "link": "../images/pxe/5.png",
+          "type": "image",
+          "caption": "Mesh shapes for detanglement scene"
+        },
+        {
+          "link": "../images/pxe/6.png",
+          "type": "image",
+          "caption": "WIP environment scene set-up / early render"
+        }
+      ]
+    },
+    {
+      "name": "Is It Cold In The Water",
+      "tags": [
+        "sound",
+        "music",
+        "arts",
+        "audio reactive",
+        "visualizers",
+        "technology",
+        "new media",
+        "arts",
+        "identity",
+        "memory"
+      ],
+      "date": "November - December 2023",
+      "technology": "Maya, Bitfrost, Arnold",
+      "description": [
+        {
+          "text": "Inspired by an anecdote of a friend equating her trans existence to that of Medusa’s, this piece set to Sophie’s homonymous song continues towards a spiraling exploration of fluidity - both corporeal and spiritual. Visual cues like fragmentation and dissolution are brought about as allusions to alienation, subjugation, and detachment. These themes are countered by conceptual reversal with the dissolved bodies coming back together or breaking free. A shaky, fragile and pulsating environment houses these fluid bodies, as they echo the constant blindness of the ever-approaching enveloping unknown of the vocalist."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The fluid simulation leverages Maya’s BitFrost fluid system. The arrows act as colliders while the bust of the statue acts as a motion field, which upon triggering towards the end brings the dispersed liquids back together. The particles are generated through Maya’s nParticle system in a spiraling pattern. They are provided with gradually increasing turbulence and upon the opening of her chest, the turbulence increases exponentially letting them escape out."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/isItCold/2.jpg",
+          "type": "image",
+          "caption": "Liquid bust after re-assembling"
+        },
+        {
+          "link": "https://player.vimeo.com/video/893127411",
+          "type": "video",
+          "caption": "Final render"
+        },
+        {
+          "link": "../images/isItCold/4.jpg",
+          "type": "image",
+          "caption": "Statue environment still"
+        },
+
+        {
+          "link": "../images/isItCold/1.jpg",
+          "type": "image",
+          "caption": "Collider arrow piercing liquid bust"
+        },
+        {
+          "link": "../images/isItCold/3.jpg",
+          "type": "image",
+          "caption": "Particles escaping after statue opens"
+        },
+        {
+          "link": "../images/isItCold/5.png",
+          "type": "image",
+          "caption": "WIP shot of setting up statue environment"
+        }
+      ]
+    },
+    {
+      "name": "Synapse",
+      "tags": [
+        "interconnected",
+        "immersive",
+        "visualizers",
+        "technology",
+        "new media",
+        "arts",
+        "identity",
+        "memory",
+        "web",
+        "game engine"
+      ],
+      "date": "December 2023",
+      "technology": "Unity, HLSL",
+      "sourceCode": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/Final/cave.compute",
+      "description": [
+        {
+          "text": "Synapse was initially a Unity-based HLSL raymarching shader that is now a work in progress exploration of a webGL-based experimental social networking site. The initial conception of this project began with exploring an infinite cave system through setting up a raymarching shader but then it evolved into a more fleshed-out parallelism of the neuron systems in our brains. The visual involves the user making their way through infinite, generative tunnel systems that are constantly rotating, forming, and relaying messages between each other through the use of globular particles."
+        },
+        {
+          "header": "Technical Implementation",
+
+          "text": "The code is split between a computer shader and a Unity script file. The unity script file is used to transfer game camera information into the shader. The scene then traverses inside a raymarched gyroid. The gyroid’s z-axis is rotated over time to generate a pulsating feeling to the tunnels. A further noise-based Voronoi shader is applied to both the normals and the textures creating a neuron-like surface. This Voronoi equation is then applied in minimum with the rotating gyroid, generating the movement of particles over time. To make the particles more globular and make them appear as if they are emerging from or being absorbed by the walls. the smoothing coefficient of the smooth minimum function is manipulated over time as well. "
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/synapse/1.png",
+          "type": "image",
+          "caption": "Scene view capture of Synapse"
+        },
+        {
+          "link": "https://player.vimeo.com/video/910363460",
+          "type": "video",
+          "caption": "Synapse final gameplay footage"
+        },
+        {
+          "link": "https://www.youtube.com/embed/LPnDzIzAjrY",
+          "type": "video",
+          "caption": "Synapse testing / WIP gameplay footage"
         }
       ]
     },
@@ -466,7 +720,8 @@
         "technology",
         "arts",
         "identity",
-        "visualizers"
+        "visualizers",
+        "game engine"
       ],
       "date": "October - November 2022",
       "technology": "Unity, C#, Cinema4D, Oculus",
@@ -723,7 +978,7 @@
     },
     {
       "name": "Komposition",
-      "tags": ["augmented reality", "technology", "new media"],
+      "tags": ["augmented reality", "technology", "new media", "game engine"],
       "date": "March - May 2022",
       "technology": "Unity, C#",
       "description": [
