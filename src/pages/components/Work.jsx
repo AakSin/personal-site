@@ -47,7 +47,7 @@ export default function Work(props) {
                 {work.technology}
               </p>
               <p className="pt-4">
-                {work.description[0].text.substring(0, 500) + "... "}
+                {work.description[0].text.substring(0, 300) + "... "}
                 {work.name !== "3D Renders" ? (
                   <a
                     className="font-bold underline underline-offset-4"

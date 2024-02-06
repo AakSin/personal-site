@@ -39,34 +39,7 @@
         }
       ]
     },
-    {
-      "name": "Fatima (visualizer)",
-      "date": "June 2023 - ",
-      "technology": "Cinema4D, RedShift",
-      "description": "These renders are part of an ongoing project to create visuals for the post-colonial sound fields created by Indian experimental sound artist Ruhail Qaisar. I aim to capture the memorial rot and harshness of sound in his album Fatima through a series of degrading frigid landscapes.",
-      "media": [
-        {
-          "link": "../images/3Drenders/fatima/1.png",
-          "type": "image",
-          "caption": ""
-        },
-        {
-          "link": "../images/3Drenders/fatima/2.png",
-          "type": "image",
-          "caption": ""
-        },
-        {
-          "link": "../images/3Drenders/fatima/3.png",
-          "type": "image",
-          "caption": ""
-        },
-        {
-          "link": "../images/3Drenders/fatima/4.png",
-          "type": "image",
-          "caption": ""
-        }
-      ]
-    },
+
     {
       "name": "Displacement Map",
       "date": "May 2023",
