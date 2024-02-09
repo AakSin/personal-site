@@ -22,7 +22,11 @@ export default function App() {
           element={<Home randomNumbers={randomNumbers}></Home>}
         ></Route>
         <Route exact path="/work/:name" element={<WorkMain></WorkMain>}></Route>
-        <Route exact path="/3D-Renders" element={<Renders></Renders>}></Route>
+        <Route
+          exact
+          path="/Miscellaneous"
+          element={<Renders></Renders>}
+        ></Route>
         <Route
           exact
           path="/TouchDesigner"
