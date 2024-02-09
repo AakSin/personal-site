@@ -1,45 +1,167 @@
 {
   "data": [
     {
-      "name": "Cryoponics",
-      "date": "June-July 2023",
-      "technology": "Cinema4D, RedShift, Adobe AfterEffects",
-      "description": "Cryoponics is a visual exploration of the evolution of organic matter from seemingly non-organic sources. Inspired by the idea of hydroponics used for the growth of plant-based material in space, I set out to create an equal parts alien and equal parts natural flora portraiture.",
+      "name": "Shaders",
+      "date": "September 2023 - December 2023",
+      "technology": "Unity, HLSL, Blender",
+      "description": "Course work for Shaders Lab Fall 2023 taught at NYU Game Center",
       "media": [
         {
-          "link": "https://www.youtube.com/embed/Q6qU-XivToU",
+          "link": "https://www.youtube.com/embed/lIq4imRBsak",
           "type": "video",
-          "caption": "Cryoponic growth"
+          "caption": "Mesh manipulation, normal-based gradients and buffer trails",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/06%20creating%20meshes/shaders/spiderRotation.shader"
         },
         {
-          "link": "../images/3Drenders/cryoponics/red.jpg",
-          "type": "image",
-          "caption": "Stills of cryoponic flora"
+          "link": "https://www.youtube.com/embed/HD4Xu_HdMpI",
+          "type": "video",
+          "caption": "Manipulating specular and diffuse lighting along normals",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/07%20lighting/shaders/homework.shader"
         },
         {
-          "link": "../images/3Drenders/cryoponics/vid-1.jpg",
-          "type": "image",
-          "caption": "Cryoponic flora stasis"
+          "link": "https://www.youtube.com/embed/PhhFkDjsQfU",
+          "type": "video",
+          "caption": "Reflection and IBL shader test on Thumper recreation",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/09%20image%20based%20lighting/shaders/trackCar.shader"
         },
         {
-          "link": "../images/3Drenders/cryoponics/vid-2.jpg",
-          "type": "image",
-          "caption": "Cryoponic flora emerging out"
-        },
-
-        {
-          "link": "../images/3Drenders/cryoponics/blue-2.jpg",
-          "type": "image",
-          "caption": "Stills of cryoponic flora"
+          "link": "https://www.youtube.com/embed/gDogoU5GKns",
+          "type": "video",
+          "caption": "Refraction by manipulating buffers for stylistic water shader",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/08%20normal%20mapping/shaders/homework.shader"
         },
         {
-          "link": "../images/3Drenders/cryoponics/yellow.jpg",
-          "type": "image",
-          "caption": "Stills of cryoponic flora"
+          "link": "https://www.youtube.com/embed/AKgbmdDaHZg",
+          "type": "video",
+          "caption": "Post-processing shader simulating a flash bang",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/10%20image%20effects/shaders/image%20effects/kuwahara.shader"
+        },
+        {
+          "link": "https://www.youtube.com/embed/uitAryehY1E",
+          "type": "video",
+          "caption": "Colored fractal noise implementation",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/04%20randomness%2C%20noise%2C%20determinism/shaders/assignment.shader"
+        },
+        {
+          "link": "https://www.youtube.com/embed/kS5J-TNVgDg",
+          "type": "video",
+          "caption": "3D fractal noise implementation on mesh and normal based shading",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/05%20mesh%20data%20and%20vertex%20operations/shaders/homework.shader"
+        },
+        {
+          "link": "https://www.youtube.com/embed/srJOjKLJ3ro",
+          "type": "video",
+          "caption": "Early raymarch prototype",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/12%20distance%20fields/shaders/ray%20marching.shader"
+        },
+        {
+          "link": "https://www.youtube.com/embed/ojKUYHWFhxk",
+          "type": "video",
+          "caption": "Buffer manipulation shader",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/11%20buffers/shaders/depth/homework.shader"
+        },
+        {
+          "link": "https://www.youtube.com/embed/TxRxjFxwRrM",
+          "type": "video",
+          "caption": "Polar blend on UV",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/02%20shapes%20and%20shaping/shaders/polar%20blend.shader"
+        },
+        {
+          "link": "https://www.youtube.com/embed/EpIFzQ6aOdQ",
+          "type": "video",
+          "caption": "Tiling based shader",
+          "sourceLink": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/03%20transformations%2C%20spaces%2C%20and%20shader%20structure/shaders/week%203%20homework%20template%20-%201.shader"
         }
       ]
     },
 
+    {
+      "name": "Unreal Engine",
+      "date": "Present",
+      "technology": "Unreal Engine",
+      "description": "Collection of smaller projects/renders in Unreal Engine",
+      "media": [
+        {
+          "link": "https://player.vimeo.com/video/876151239",
+          "type": "video",
+          "caption": "Atalantic Diva - Malibu"
+        },
+        {
+          "link": "https://www.youtube.com/embed/cRq92IbwALg",
+          "type": "video",
+          "caption": "Piel - Arca"
+        },
+        {
+          "link": "https://www.youtube.com/embed/Ccj7-5hdtX4",
+          "type": "video",
+          "caption": "MetaHuman and 3D scanned objects + scenery"
+        },
+        {
+          "link": "https://player.vimeo.com/video/876119719",
+          "type": "video",
+          "caption": "Atalantic Diva - Malibu"
+        }
+      ]
+    },
+
+    {
+      "name": "TouchDesigner",
+      "date": "Present",
+      "technology": "TouchDesigner",
+      "description": "Collection of smaller projects/renders in TouchDesigner",
+      "media": [
+        {
+          "link": "https://www.youtube.com/embed/-zIxW1DX7nw",
+          "type": "video",
+          "caption": "Ponyboy visualizer"
+        },
+        {
+          "link": "https://www.youtube.com/embed/QF6udCDyFgY",
+          "type": "video",
+          "caption": "Postmemory v2"
+        },
+        {
+          "link": "https://player.vimeo.com/video/865651950",
+          "type": "video",
+          "caption": "Phosphene visualizer"
+        },
+
+        {
+          "link": "https://player.vimeo.com/video/863401818",
+          "type": "video",
+          "caption": "Postmemory v1"
+        },
+        {
+          "link": "https://player.vimeo.com/video/866040836",
+          "type": "video",
+          "caption": "Doxylamine poster"
+        }
+      ]
+    },
+
+    {
+      "name": "Live sets",
+      "date": "Present",
+      "technology": "TouchDesigner",
+      "description": "Live VJ (visual jockey) sets or club visuals.",
+      "media": [
+        {
+          "link": "https://www.youtube.com/embed/b6NZ98tsf0Y",
+          "type": "video",
+          "caption": "Evol Night Club NYC, Dec 31 2023"
+        },
+        {
+          "link": "https://www.youtube.com/embed/Cc2XROxRFo0",
+          "type": "video",
+          "caption": "Hart Bar, Jan 4 2024"
+        },
+        {
+          "link": "https://www.youtube.com/embed/bKwCrEMwNNA",
+          "type": "video",
+          "caption": "Hart Bar, Jan 4 2024"
+        }
+      ]
+    },
     {
       "name": "Displacement Map",
       "date": "May 2023",
@@ -60,6 +182,94 @@
           "link": "../images/3Drenders/displacement-map/aiweiwei.png",
           "type": "image",
           "caption": "Ai Weiwei's \"Han Jar Overpainted with Coca-Cola Logo\" in Adobe Substance 3D Painter"
+        }
+      ]
+    },
+    {
+      "name": "Communication Plateau",
+      "date": "December 2022",
+      "sourceCode": "https://github.com/AakSin/CommunicationPlateau",
+      "technology": "Kinect, TouchDesigner",
+      "description": "Communication Plateau is an interactive sound and light installation derived from Plato’s Allegory of The Cave. Inspired by the imagery of projections on the wall as a metaphor for existence, I set out to simulate a similar visual language in this installation. The project involves a Kinect Azure pointed at the entrance of the exhibition. The Kinect then sends point cloud data into TouchDesigner. The point cloud data is then formatted and passed through various nodes like blur, feedback and threshold. These nodes are also mapped to an original soundtrack and depending on the frequency, the values in the node changes, creating an audio-reactive experience.",
+      "media": [
+        {
+          "link": "../images/complateau/1.jpg",
+          "type": "image",
+          "caption": "Picture from project installation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/A8lEnJhtTaM",
+          "type": "video",
+          "caption": "First demo on screen"
+        },
+        {
+          "link": "https://www.youtube.com/embed/5oVOlH9Gxgw",
+          "type": "video",
+          "caption": "First demo on a projector"
+        },
+        {
+          "link": "https://www.youtube.com/embed/ihP8nLv5nsE",
+          "type": "video",
+          "caption": "Video from project installation"
+        }
+      ]
+    },
+    {
+      "name": "Glitch Princess",
+      "date": "March 2022",
+      "technology": "p5.js, JavaScript, Procreate",
+      "sourceCode": "https://github.com/AakSin/IntroToIM/tree/main/week5",
+      "liveLink": "https://aaksin.github.io/IntroToIM/week5/game",
+      "description": "Glitch Princess is an audio-reactive video game set to Pocky Boy by Yeule. It involves a hand-drawn sprite of Yeule floating around in space while planets spawn to musical triggers. The player has to keep dodging these planets or their health lowers. The game finishes once the health reaches zero or the song finishes. The background of the game is an audio-reactive star system which changes throughout the song. The planets are of three kinds - static, hand animated and procedurally generated. Each planet regardless, is also assigned random attributes like speed, size and trajectory.",
+      "media": [
+        {
+          "link": "../images/glitchprincess/1.png",
+          "type": "image",
+          "caption": "Still from Glitch Princess"
+        },
+        {
+          "link": "https://www.youtube.com/embed/6FN5UfUDAFQ",
+          "type": "video",
+          "caption": "Playthrough of Glitch Princess"
+        },
+
+        {
+          "link": "../images/glitchprincess/2.jpeg",
+          "type": "image",
+          "caption": "Conception of the game on paper"
+        },
+        {
+          "link": "../images/glitchprincess/3.jpeg",
+          "type": "image",
+          "caption": "Initial sprite drawn in Procreate"
+        },
+        {
+          "link": "../images/glitchprincess/4.png",
+          "type": "image",
+          "caption": "Spritesheet for the hand drawn planet"
+        }
+      ]
+    },
+    {
+      "name": "Augmented Reality",
+      "date": "April 2023",
+      "technology": "Unity",
+      "description": "Small projects in Augmented Reality",
+      "media": [
+        {
+          "link": "https://www.youtube.com/embed/qcSpykmKb0Y",
+          "type": "video",
+          "caption": "Audio-reactive Instragram particle system implementation"
+        },
+        {
+          "link": "https://www.youtube.com/embed/skQSQ4A-jLg",
+          "type": "video",
+          "caption": "AR exploration of Indian internet cafes"
+        },
+        {
+          "link": "https://www.youtube.com/embed/7ZAtKHa-ofQ",
+          "type": "video",
+          "caption": "AR exploration of decolonizaton of western museums"
         }
       ]
     }

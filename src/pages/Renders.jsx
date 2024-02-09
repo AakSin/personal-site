@@ -20,7 +20,7 @@ export default function Renders() {
         </a>
         {/* <div className="w-full"> */}
         <h1 className="text-3xl md:text-5xl text-center px-2 md:px-0">
-          3D Renders
+          Miscellaneous Projects
         </h1>
       </div>
       {renderData.map((render, key) => (
@@ -81,7 +81,17 @@ export default function Renders() {
                     title="Embedded youtube"
                   />
                   <p className="italic px-2 pt-2 text-center">
-                    {media.caption}
+                    {media.sourceLink ? (
+                      <a
+                        href={media.sourceLink}
+                        target="_blank"
+                        className="underline underline-offset-4"
+                      >
+                        {media.caption}
+                      </a>
+                    ) : (
+                      media.caption
+                    )}
                   </p>
                 </SwiperSlide>
               )
@@ -89,6 +99,25 @@ export default function Renders() {
           </Swiper>
           <div className="flex justify-center pt-4">
             <div className="md:w-1/2 w-5/6 text-lg">
+              {render.sourceCode ? (
+                <a
+                  href={render.sourceCode}
+                  target="_blank"
+                  className="font-bold underline underline-offset-4 py-4"
+                >
+                  Project Files
+                </a>
+              ) : null}
+              {"    "}
+              {render.liveLink ? (
+                <a
+                  href={render.liveLink}
+                  target="_blank"
+                  className="font-bold underline underline-offset-4 py-4"
+                >
+                  Project Link
+                </a>
+              ) : null}
               <div>{render.description}</div>
               <p className="py-4">
                 <span className="font-bold">Made Using: </span>{" "}
