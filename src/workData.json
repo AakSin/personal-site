@@ -859,6 +859,7 @@
       "tags": ["augmented reality", "technology", "new media", "game engine"],
       "date": "March - May 2022",
       "technology": "Unity, C#",
+      "sourceCode": ""
       "description": [
         {
           "text": "Komposition is an AR app that allows you to visualize German compound words in real space. The project is a surrealist take at exploring the absurdities inherent in our colloquial language. Using Komposition users can combine two german words, see a physical representation of this fusion and then place this word around them."

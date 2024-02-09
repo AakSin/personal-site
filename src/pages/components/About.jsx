@@ -9,18 +9,33 @@ export default function About() {
         <p className="pt-8">
           Aakarsh Singh (he/they) is a new media artist hailing originally from
           India but now settled in the United Arab Emirates. They study
-          Interactive Media along with Sound and Music Computing between New
-          York University’s Abu Dhabi, Berlin, and New York campuses.
+          Interactive Media along with minors in Computer Science, Art History,
+          and Sound Music Computing between New York University’s Abu Dhabi,
+          Berlin, and New York campuses.
         </p>
-        <p className="pt-4">
+        <p className="pt-4 pb-2">
           With their studies in Interactive Media, they work between virtual
           reality, augmented reality, artificial intelligence, sound-light
           installations, and inter-connected multimedia websites. They aim to
-          explore post-colonial identity by delving into the recesses of
-          post-memory - personal and communal. This disintegration and
-          fragmentation of collective memory is expressed in a visual style
-          equally ephemeral, transient, and fractured.
+          explore post-colonial identity by delving into the recesses of memory
+          - both personal and communal. This disintegration and fragmentation of
+          memory is expressed in a visual style equally ephemeral, transient,
+          and fractured.
         </p>
+        <a
+          href="./Aakarsh Singh - resume -  090223.pdf"
+          target="_blank"
+          className="font-bold underline underline-offset-4"
+        >
+          Resume
+        </a>{" "}
+        <a
+          href="https://www.instagram.com/aacarcrash"
+          target="_blank"
+          className="font-bold underline underline-offset-4"
+        >
+          Instagram
+        </a>{" "}
         <a
           href="mailto:aakarsh@nyu.edu"
           target="_blank"
@@ -35,20 +50,6 @@ export default function About() {
         >
           GitHub
         </a>{" "}
-        <a
-          href="https://www.instagram.com/aakarsh.2/"
-          target="_blank"
-          className="font-bold underline underline-offset-4"
-        >
-          Instagram
-        </a>{" "}
-        <a
-          href="./Aakarsh Singh - resume.pdf"
-          target="_blank"
-          className="font-bold underline underline-offset-4"
-        >
-          Resume
-        </a>
       </div>
     </div>
   );
