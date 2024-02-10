@@ -25,31 +25,31 @@ export default function About() {
         <a
           href="./Aakarsh Singh - resume -  100223.pdf"
           target="_blank"
-          className="font-bold underline underline-offset-4"
+          className="pr-2 font-bold underline underline-offset-4"
         >
           Resume
-        </a>{" "}
+        </a>
         <a
           href="https://www.instagram.com/aacarcrash"
           target="_blank"
-          className="font-bold underline underline-offset-4"
+          className="pr-2 font-bold underline underline-offset-4"
         >
           Instagram
-        </a>{" "}
+        </a>
         <a
           href="mailto:aakarsh@nyu.edu"
           target="_blank"
-          className="font-bold underline underline-offset-4"
+          className="pr-2 font-bold underline underline-offset-4"
         >
           Email
-        </a>{" "}
+        </a>
         <a
           href="https://github.com/AakSin"
           target="_blank"
-          className="font-bold underline underline-offset-4"
+          className="pr-2 font-bold underline underline-offset-4"
         >
           GitHub
-        </a>{" "}
+        </a>
       </div>
     </div>
   );
