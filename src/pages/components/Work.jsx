@@ -5,8 +5,8 @@ export default function Work(props) {
   const [currentWork, setCurrentWork] = useState(workData.data[0].name);
 
   return (
-    <div>
-      <div className="pb-8 flex flex-wrap justify-center">
+    <div className="flex flex-wrap justify-center items-center">
+      <div className="pb-8 px-5 flex flex-wrap justify-center items-center ">
         {workData.data.map((work, key) => (
           <h3
             key={key}
@@ -31,22 +31,19 @@ export default function Work(props) {
         .filter((work) => work.name === currentWork)
         .map((work, key) => (
           <div key={key} className="flex justify-center items-center flex-col">
-            <img
-              src={work.media[0].link}
-              style={{
-                width: "90%",
-                aspectRatio: "22/9",
-                objectFit: "cover",
-                filter: "grayscale(100%)",
-              }}
-            ></img>
-            <div className="px-12 md:px-24 py-8">
+            <a
+              className="flex justify-center items-center flex-col"
+              href={"/work/" + work.name}
+            >
+              <img src={work.media[0].link} className="work-img "></img>
+            </a>
+            <div className="px-12 md:px-24 py-8 text-center">
               <p>
                 {" "}
                 <span className="font-bold">Technologies Used:</span>{" "}
                 {work.technology}
               </p>
-              <p className="pt-4">
+              <p className="pt-4 text-center">
                 {work.description[0].text.substring(0, 300) + "... "}
                 {work.name !== "More Work..." ? (
                   <a

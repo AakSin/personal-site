@@ -23,7 +23,18 @@ p > a {
   cursor: pointer;
   /* font-weight: 700; */
 }
+.work-img {
+  width: 80%;
+  aspect-ratio: 21/9;
+  object-fit: cover;
 
+  filter: grayscale(100%);
+}
+.work-img:hover {
+  filter: none;
+  transition: 1s;
+  cursor: pointer;
+}
 .swiper-button-next,
 .swiper-button-prev {
   color: black;
@@ -53,7 +64,7 @@ p > a {
 }
 .text-cloud {
   animation-name: shimmer;
-  animation-duration: 5s;
+  animation-duration: 2.5s;
   animation-timing-function: ease-in;
 }
 
