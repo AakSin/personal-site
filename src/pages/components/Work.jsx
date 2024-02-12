@@ -43,7 +43,7 @@ export default function Work(props) {
                 <span className="font-bold">Technologies Used:</span>{" "}
                 {work.technology}
               </p>
-              <p className="pt-4 text-center">
+              <p className="pt-4 text-left">
                 {work.description[0].text.substring(0, 300) + "... "}
                 {work.name !== "More Work..." ? (
                   <a
