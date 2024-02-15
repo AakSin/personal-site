@@ -2,6 +2,7 @@
   "data": [
     {
       "name": "Shaders",
+      "id": "shaders",
       "date": "September 2023 - December 2023",
       "technology": "Unity, HLSL, Blender",
       "description": "Course work for Shaders Lab Fall 2023 taught at NYU Game Center.",
@@ -77,6 +78,7 @@
 
     {
       "name": "Unreal Engine",
+      "id": "unreal-engine",
       "date": "Present",
       "technology": "Unreal Engine",
       "description": "Collection of smaller projects/renders in Unreal Engine.",
@@ -106,6 +108,7 @@
 
     {
       "name": "TouchDesigner",
+      "id": "touchdesigner",
       "date": "Present",
       "technology": "TouchDesigner",
       "description": "Collection of smaller projects/renders in TouchDesigner.",
@@ -141,6 +144,7 @@
 
     {
       "name": "Live sets",
+      "id": "livesets",
       "date": "Present",
       "technology": "TouchDesigner",
       "description": "Live VJ (visual jockey) sets or club visuals.",
@@ -164,6 +168,7 @@
     },
     {
       "name": "Displacement Map",
+      "id": "displacement-map",
       "date": "May 2023",
       "technology": "Blender, Adobe Substance 3D Painter",
       "description": "Displacement map is a series of 3D renders meant to displace contemporary art from the comfort of the white cube, and place it among areas of nature or spirituality. Through these works, I aim to explore the confines of the white cube and the shift in perception when the environment of the object changes.",
@@ -187,6 +192,8 @@
     },
     {
       "name": "Communication Plateau",
+      "id": "communication-plateau",
+
       "date": "December 2022",
       "sourceCode": "https://github.com/AakSin/CommunicationPlateau",
       "technology": "Kinect, TouchDesigner",
@@ -216,6 +223,8 @@
     },
     {
       "name": "Glitch Princess",
+      "id": "glitch-princess",
+
       "date": "March 2022",
       "technology": "p5.js, JavaScript, Procreate",
       "sourceCode": "https://github.com/AakSin/IntroToIM/tree/main/week5",
@@ -252,6 +261,8 @@
     },
     {
       "name": "Augmented Reality",
+      "id": "augmented-reality",
+
       "date": "April 2023",
       "technology": "Unity",
       "description": "Collection of smaller projects in Augmented Reality.",
