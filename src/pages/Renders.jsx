@@ -24,11 +24,9 @@ export default function Renders() {
         </h1>
       </div>
       {renderData.map((render, key) => (
-        <div key={key}>
+        <div key={key} id={render.id}>
           <div className="flex flex-col justify-center mt-10  text-center">
-            <h2 className="text-xl md:text-3xl" id={render.id}>
-              {render.name}
-            </h2>
+            <h2 className="text-xl md:text-3xl">{render.name}</h2>
             <h3 className="text-lg md:text-2xl">{render.date}</h3>
           </div>
 
