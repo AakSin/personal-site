@@ -32,7 +32,7 @@ p > a {
 }
 .work-img:hover {
   filter: none;
-  transition: 1s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .swiper-button-next,
