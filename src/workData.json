@@ -1081,6 +1081,7 @@
 
     {
       "name": "More Work...",
+      "link": "/Miscellaneous",
       "tags": [
         "technology",
         "audio reactive",
@@ -1100,7 +1101,7 @@
         {
           "link": "../images/3Drenders/displacement-map/temple-render.jpg",
           "type": "image",
-          "caption": "Still from Fatima"
+          "caption": "Still from Displacement Map"
         }
       ]
     }

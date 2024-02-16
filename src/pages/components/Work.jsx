@@ -33,7 +33,7 @@ export default function Work(props) {
           <div key={key} className="flex justify-center items-center flex-col">
             <a
               className="flex justify-center items-center flex-col"
-              href={"/work/" + work.name}
+              href={work.link ? "/Miscellaneous" : "/work/" + work.name}
             >
               <img src={work.media[0].link} className="work-img "></img>
             </a>
