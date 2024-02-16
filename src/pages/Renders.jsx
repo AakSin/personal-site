@@ -51,9 +51,9 @@ export default function Renders() {
                   className="flex flex-col justify-center items-center px-0 "
                   key={key}
                 >
-                  <Zoom style={{ height: "100%", objectFit: "contain" }}>
+                  <Zoom style={{ maxHeight: "100%", objectFit: "contain" }}>
                     <img
-                      style={{ height: "100%", objectFit: "contain" }}
+                      style={{ maxHeight: "100%", objectFit: "contain" }}
                       src={media.link}
                       alt={media.caption}
                       loading="lazy"
