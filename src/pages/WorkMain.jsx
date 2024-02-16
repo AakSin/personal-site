@@ -60,6 +60,7 @@ export default function WorkMain() {
                 <img
                   style={{ height: "100%", objectFit: "contain" }}
                   src={media.link}
+                  alt={media.caption}
                   loading="lazy"
                   className="drop-shadow-md hover:drop-shadow-xl"
                 ></img>
