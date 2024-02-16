@@ -13,13 +13,13 @@ renderData = renderData.data;
 
 export default function Renders() {
   return (
-    <div className="min-min-h-screen py-12">
+    <div className="min-min-h-screen py-8">
       <div className="px-8 md:px-32">
         <a href="/" className="text-lg md:text-2xl px-2 md:px-0">
           Home
         </a>
         {/* <div className="w-full"> */}
-        <h1 className="text-3xl md:text-5xl text-center px-2 md:px-0">
+        <h1 className="text-3xl md:text-5xl text-center px-2 pt-4 md:px-0">
           Miscellaneous Projects
         </h1>
       </div>

@@ -18,13 +18,13 @@ export default function WorkMain() {
   const workInfo = workData.data.filter((work) => work.name === name)[0];
 
   return (
-    <div className="min-min-h-screen py-12">
+    <div className="min-min-h-screen py-8">
       <div className="px-8 md:px-32 ">
         <a href="/" className="text-lg md:text-2xl px-2 md:px-0">
           Home
         </a>
         {/* <div className="w-full"> */}
-        <h1 className="text-3xl md:text-5xl text-center px-2 md:px-0">
+        <h1 className="text-3xl md:text-5xl text-center px-2 pt-4 md:px-0">
           {workInfo.name}
         </h1>
         {/* </div> */}
