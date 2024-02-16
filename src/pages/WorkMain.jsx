@@ -99,6 +99,7 @@ export default function WorkMain() {
             <a
               href={workInfo.sourceCode}
               target="_blank"
+              rel="noreferrer"
               className="font-bold underline underline-offset-4 py-4"
             >
               Project Files
@@ -109,6 +110,7 @@ export default function WorkMain() {
             <a
               href={workInfo.liveLink}
               target="_blank"
+              rel="noreferrer"
               className="font-bold underline underline-offset-4 py-4"
             >
               Project Link

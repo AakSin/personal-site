@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 // import required modules
-import { Navigation, Pagination } from "swiper";
+import { Navigation } from "swiper";
 import renderData from "../renderData.json";
 renderData = renderData.data;
 
@@ -55,6 +55,7 @@ export default function Renders() {
                     <img
                       style={{ height: "100%", objectFit: "contain" }}
                       src={media.link}
+                      alt={media.caption}
                       loading="lazy"
                       className="drop-shadow-md hover:drop-shadow-xl"
                     ></img>
@@ -85,6 +86,7 @@ export default function Renders() {
                       <a
                         href={media.sourceLink}
                         target="_blank"
+                        rel="noreferrer"
                         className="underline underline-offset-4"
                       >
                         {media.caption}
@@ -103,6 +105,7 @@ export default function Renders() {
                 <a
                   href={render.sourceCode}
                   target="_blank"
+                  rel="noreferrer"
                   className="font-bold underline underline-offset-4 py-4"
                 >
                   Project Files
@@ -113,6 +116,7 @@ export default function Renders() {
                 <a
                   href={render.liveLink}
                   target="_blank"
+                  rel="noreferrer"
                   className="font-bold underline underline-offset-4 py-4"
                 >
                   Project Link

@@ -4,7 +4,7 @@ import Profile from "./profile.jpg";
 export default function About() {
   return (
     <div className="flex justify-center items-center flex-col px-8">
-      <img src={Profile} className="w-3/4 md:w-2/5"></img>
+      <img src={Profile} alt="portfolio" className="w-3/4 md:w-2/5"></img>
       <div className="w-5/6 md:w-3/4 pb-4">
         <p className="pt-8">
           Aakarsh Singh (he/they) is a new media artist hailing originally from
@@ -25,6 +25,7 @@ export default function About() {
         <a
           href="./Aakarsh Singh - resume -  100223.pdf"
           target="_blank"
+          rel="noreferrer"
           className="pr-2 font-bold underline underline-offset-4"
         >
           Resume
@@ -32,6 +33,7 @@ export default function About() {
         <a
           href="https://www.instagram.com/aacarcrash"
           target="_blank"
+          rel="noreferrer"
           className="pr-2 font-bold underline underline-offset-4"
         >
           Instagram
@@ -39,6 +41,7 @@ export default function About() {
         <a
           href="mailto:aakarsh@nyu.edu"
           target="_blank"
+          rel="noreferrer"
           className="pr-2 font-bold underline underline-offset-4"
         >
           Email
@@ -46,6 +49,7 @@ export default function About() {
         <a
           href="https://github.com/AakSin"
           target="_blank"
+          rel="noreferrer"
           className="pr-2 font-bold underline underline-offset-4"
         >
           GitHub

@@ -35,7 +35,11 @@ export default function Work(props) {
               className="flex justify-center items-center flex-col"
               href={work.link ? "/Miscellaneous" : "/work/" + work.name}
             >
-              <img src={work.media[0].link} className="work-img "></img>
+              <img
+                src={work.media[0].link}
+                alt="current work"
+                className="work-img "
+              ></img>
             </a>
             <div className="px-12 md:px-24 py-8 text-center">
               <p>
@@ -49,7 +53,7 @@ export default function Work(props) {
                   <a
                     className="font-bold underline underline-offset-4"
                     href={"/work/" + work.name}
-                    // target="_blank"
+                    // target="_blank" rel="noreferrer"
                   >
                     Read More
                   </a>
@@ -57,7 +61,7 @@ export default function Work(props) {
                   <a
                     className="font-bold underline underline-offset-4"
                     href={"/Miscellaneous"}
-                    // target="_blank"
+                    // target="_blank" rel="noreferrer"
                   >
                     See More
                   </a>
