@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "name": "Live Coding Performance",
+      "id": "live-coding",
+
+      "date": "Jan - May 2024",
+      "technology": "WebGL, Hydra, TidalCylces",
+      "description": "Collection of live coding performances and A/V sets",
+      "media": [
+        {
+          "link": "https://player.vimeo.com/video/920402029",
+          "type": "video",
+          "caption": "I Feel Like I Forget Everything / NyQuil - A/V"
+        }
+      ]
+    },
+    {
       "name": "Shaders",
       "id": "shaders",
       "date": "September 2023 - December 2023",
