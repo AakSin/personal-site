@@ -1,6 +1,85 @@
 {
   "data": [
     {
+      "name": "LAND",
+      "tags": ["new media", "immersive", "technology", "arts", "game engine"],
+      "date": "November 2024 - Present",
+      "technology": "Unreal Engine, Photogrammetry",
+      "description": [
+        {
+          "header": "[This project is currently work in progress]",
+          "text": "Local Access Network Diptych (LAND) is an experimental short film made using new media technologies like Unreal Engine, TouchDesigner and AI pipelines. It looks at the fragmented nature of the spatial and temporal history of conflicted land between India and Pakistan. Through interweaving cybernetic philosophy, new media aesthetics and personal history, LAND aims to construct a new framework for examining conflicted land."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/land/still3.png",
+          "type": "image",
+          "caption": "Katas Raj Temple Complex in Unreal Engine"
+        },
+        {
+          "link": "https://player.vimeo.com/video/1053772963?h=ad01ea769a",
+          "type": "video",
+          "caption": "First half of the film"
+        },
+        {
+          "link": "../images/land/still2.png",
+          "type": "image",
+          "caption": "Point clouds from Khewra Salt Mines"
+        },
+        {
+          "link": "../images/land/still1.png",
+          "type": "image",
+          "caption": "Katas Raj Temple Complex in Unreal Engine"
+        }
+      ]
+    },
+    {
+      "name": "NYU Tandon @ The Yard",
+      "tags": [
+        "new media",
+        "technology",
+        "arts",
+        "game engine",
+        "virtual reality",
+        "performance"
+      ],
+      "date": "November 2024 - Present",
+      "technology": "Unreal Engine, Photogrammetry",
+      "description": [
+        {
+          "text": "Volumetric capture, motion capture, and virtual production are three emerging media techniques revolutionizing the media and entertainment industry. Our research project at NYU Tandon @ The Yard aimed to compare these three techniques and evaluate their effectiveness against each other through the production of an experimental fashion film. The results compared the three completed demos, highlighting the distinct visual and practical outcomes of each technique. I worked on the creative direction, Unreal Engine environments and hardware setup of the motion capture and volumetric capture rigs for this project."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/tandon/3.PNG",
+          "type": "image",
+          "caption": "Envornment 1 still"
+        },
+        {
+          "link": "https://player.vimeo.com/video/1053796224?h=d88e1583a1",
+          "type": "video",
+          "caption": "Volumetric capture rendered out in environment"
+        },
+        {
+          "link": "../images/tandon/2.JPG",
+          "type": "image",
+          "caption": "Model in volumetric capture rig"
+        },
+        {
+          "link": "../images/tandon/4.PNG",
+          "type": "image",
+          "caption": "Envornment 2 still"
+        },
+        {
+          "link": "../images/tandon/1.JPG",
+          "type": "image",
+          "caption": "Model in motion capture rig"
+        }
+      ]
+    },
+    {
       "name": "NEEEU",
       "tags": [
         "hardware",
