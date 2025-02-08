@@ -7,11 +7,11 @@ export default function About() {
       <img src={Profile} alt="portfolio" className="w-3/4 md:w-2/5"></img>
       <div className="w-5/6 md:w-3/4 pb-4">
         <p className="pt-8">
-          Aakarsh Singh (he/they) is a software engineer and artist hailing
-          originally from India but now settled in the United Arab Emirates.
-          They study interactive media along with computer science, art history
-          and sound-music computing between New York University's Abu Dhabi,
-          Berlin, and New York campuses.
+          Aakarsh Singh (he/they) is a software engineer and new media artist
+          hailing originally from India but now settled in the United Arab
+          Emirates. They study interactive media along with computer science,
+          art history and sound-music computing between New York University's
+          Abu Dhabi, Berlin, and New York campuses.
         </p>
         <p className="pt-4 pb-2">
           With their studies in Interactive Media, they work between virtual
