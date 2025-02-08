@@ -35,6 +35,65 @@
       ]
     },
     {
+      "name": "Callback",
+      "tags": ["web", "technology"],
+      "date": "May 2024 - December 2024",
+      "technology": "Next.js, Typescript, Express.js, Firebase",
+      "description": [
+        {
+          "text": "Callback is a Tokyo-based startup creating a loyalty platform for independent restaurants.  In my time as a full stack software engineer with Callback, I worked on a range of front-end components and backend APIs. I took on solo projects like our weekly mailer and our user leaderboards. My tasks also included the main-site redesign and its subsequent front-end implementation. I further assisted in the enterprise dashboard development, allowing our partners to peruse data metrics in an organized format. I architected and implemented our social networking APIs, allowing users to create friendships and view other user’s profiles in our app."
+        }
+      ],
+      "media": [
+        {
+          "link": "../images/callback/callbackCollectionsPage.png",
+          "type": "image",
+          "caption": "Customer loyalty stamps"
+        },
+        {
+          "link": "../images/callback/callbackCustomersPage.png",
+          "type": "image",
+          "caption": "Customers page in enterprise dashboard"
+        },
+        {
+          "link": "../images/callback/callbackFriendsMap.png",
+          "type": "image",
+          "caption": "Friend activity map in app"
+        },
+        {
+          "link": "../images/callback/callbackMailer.png",
+          "type": "image",
+          "caption": "Weekly mailer"
+        },
+        {
+          "link": "../images/callback/callbackAccountPage.png",
+          "type": "image",
+          "caption": "Account page in enterprise dashboard"
+        },
+
+        {
+          "link": "../images/callback/callbackProfileApp.png",
+          "type": "image",
+          "caption": "In-app profile and friends components"
+        },
+        {
+          "link": "../images/callback/callbackRewardsPage.png",
+          "type": "image",
+          "caption": "Rewards page in enterprise dashboard"
+        },
+        {
+          "link": "../images/callback/callbackFriendSearch.png",
+          "type": "image",
+          "caption": "Friend search in app"
+        },
+        {
+          "link": "../images/callback/callbackNFC.png",
+          "type": "image",
+          "caption": "NFC feature for claiming stamps in app"
+        }
+      ]
+    },
+    {
       "name": "NYU Tandon @ The Yard",
       "tags": [
         "new media",
@@ -55,7 +114,7 @@
         {
           "link": "../images/tandon/3.PNG",
           "type": "image",
-          "caption": "Envornment 1 still"
+          "caption": "Environment 1 still"
         },
         {
           "link": "https://player.vimeo.com/video/1053796224?h=d88e1583a1",
@@ -70,7 +129,7 @@
         {
           "link": "../images/tandon/4.PNG",
           "type": "image",
-          "caption": "Envornment 2 still"
+          "caption": "Environment 2 still"
         },
         {
           "link": "../images/tandon/1.JPG",
@@ -134,12 +193,12 @@
         {
           "link": "../images/neeeu/3.jpeg",
           "type": "image",
-          "caption": "Concept charcter made in Cinema4D"
+          "caption": "Concept character made in Cinema4D"
         },
         {
           "link": "../images/neeeu/4.jpeg",
           "type": "image",
-          "caption": "Concept charcter made in Cinema4D"
+          "caption": "Concept character made in Cinema4D"
         },
         {
           "link": "../images/neeeu/5.png",
@@ -163,12 +222,12 @@
       "technology": "TouchDesigner, Arduino",
       "description": [
         {
-          "text": "\"To Water A Dying Garden\" is an immersive installation exploring the interplay of nature, technology, and human influence. Informed by Hegelian notions of nature as the unfolding of absolute spirit, the installation transforms dissonant point clouds into a vibrant garden as you lift a teapot and slowly water a solitary plant. This act mirrors Hegel's concept of simultaneous negation and preservation. As you nurture, the garden blossoms temporarily, symbolizing life's transient beauty and echoing Hegel's thoughts on the evolving nature of existence. To enhance the experience, another participant can shine light with their phone's flashlight on the growing garden, illuminating the collaborative dance between light and life."
+          "text": "\"To Water A Dying Garden\" is an immersive installation exploring the interplay of nature, technology, and human influence. It has been previously exhibited at <a href=\"https://www.miza.ae\" \" target=\"_blank\">  MiZa, Abu Dhabi </a> and NYU Tisch, New York City. Informed by Hegelian notions of nature as the unfolding of absolute spirit, the installation transforms dissonant point clouds into a vibrant garden as you lift a teapot and slowly water a solitary plant. This act mirrors Hegel's concept of simultaneous negation and preservation. As you nurture, the garden blossoms temporarily, symbolizing life's transient beauty and echoing Hegel's thoughts on the evolving nature of existence. To enhance the experience, another participant can shine light with their phone's flashlight on the growing garden, illuminating the collaborative dance between light and life."
         },
         {
           "header": "Technical Implementation",
 
-          "text": "The project operates using photoresisotrs, self-made switches, Arduino, and TouchDesigner. The first trigger is when the pot gets lifted up, a signal is sent to TouchDesigner spawning a new point cloud flower in the garden. This is done by a replicator system that instantiates a custom TouchDesigner component with random values (for color, size, position) that is linked to a new Geo node. Once you start watering the plant, the pointclouds start coming back together to form flowers by switching between two point cloud files. The photoresistors are then mapped to the Bloom TOP, deciding the threshold of the glow depening on how much light the plant receives. The point clouds when dispersed are in constant noise based movement, along with the camera. Future implementations of this installation in a bigger room, would involve tracking camera and motion to the movements of the crowd."
+          "text": "The project operates using photo-resistors, self-made switches, Arduino, and TouchDesigner. The first trigger is when the pot gets lifted up, a signal is sent to TouchDesigner spawning a new point cloud flower in the garden. This is done by a replicator system that instantiates a custom TouchDesigner component with random values (for color, size, position) that is linked to a new Geo node. Once you start watering the plant, the point-clouds start coming back together to form flowers by switching between two point cloud files. The photo-resistors are then mapped to the Bloom TOP, deciding the threshold of the glow depending on how much light the plant receives. The point clouds when dispersed are in constant noise based movement, along with the camera. Future implementations of this installation in a bigger room, would involve tracking camera and motion to the movements of the crowd."
         }
       ],
       "media": [
@@ -195,7 +254,7 @@
         {
           "link": "https://www.youtube.com/embed/SopnBFCmEtQ",
           "type": "video",
-          "caption": "Audeince interacting with light prop to change the bloom effect"
+          "caption": "Audience interacting with light prop to change the bloom effect"
         },
         {
           "link": "https://www.youtube.com/embed/a1ziQecXQ6E",
@@ -326,22 +385,33 @@
         "identity",
         "memory",
         "web",
-        "game engine"
+        "game engine",
+        "performance"
       ],
       "date": "December 2023",
-      "technology": "Unity, HLSL",
+      "technology": "webGL, TidalCycles, Unity, HLSL",
       "sourceCode": "https://github.com/AakSin/shaderLabFall2023/blob/master/Assets/topics/Final/cave.compute",
       "description": [
         {
-          "text": "Synapse was initially a Unity-based HLSL raymarching shader that is now a work in progress exploration of a webGL-based experimental social networking site. The initial conception of this project began with exploring an infinite cave system through setting up a raymarching shader but then it evolved into a more fleshed-out parallelism of the neuron systems in our brains. The visual involves the user making their way through infinite, generative tunnel systems that are constantly rotating, forming, and relaying messages between each other through the use of globular particles."
+          "text": "Synapse was initially a Unity-based HLSL raymarching shader that became an exploratory webGL-based experimental A/V performance. The initial conception of this project began with exploring an infinite cave system through setting up a raymarching shader but then it evolved into a more fleshed-out parallelism of the neuron systems in our brains. The visual involves the user making their way through infinite, generative tunnel systems that are constantly rotating, forming, and relaying messages between each other through the use of globular particles."
         },
         {
-          "header": "Technical Implementation",
+          "header": "Technical Implementation (Unity)",
 
           "text": "The code is split between a computer shader and a Unity script file. The unity script file is used to transfer game camera information into the shader. The scene then traverses inside a raymarched gyroid. The gyroid’s z-axis is rotated over time to generate a pulsating feeling to the tunnels. A further noise-based Voronoi shader is applied to both the normals and the textures creating a neuron-like surface. This Voronoi equation is then applied in minimum with the rotating gyroid, generating the movement of particles over time. To make the particles more globular and make them appear as if they are emerging from or being absorbed by the walls. the smoothing coefficient of the smooth minimum function is manipulated over time as well. "
         }
       ],
       "media": [
+        {
+          "link": "../images/synapse/2.png",
+          "type": "image",
+          "caption": "Still from A/V performance"
+        },
+        {
+          "link": "https://player.vimeo.com/video/920402029",
+          "type": "video",
+          "caption": "A/V performance developed from Synapse"
+        },
         {
           "link": "../images/synapse/1.png",
           "type": "image",
@@ -391,10 +461,11 @@
       ],
       "media": [
         {
-          "link": "../images/abandonedHotels/particle.png",
+          "link": "../images/abandonedHotels/liquid.png",
           "type": "image",
-          "caption": "Disinteragation exploration 1 in Cinema4D + Redshift (particle)"
+          "caption": "WIP shot of disintegration exploration 2 in Cinema4D (liquid)"
         },
+
         {
           "link": "https://player.vimeo.com/video/871618358?h=4a586d07e",
           "type": "video",
@@ -405,11 +476,10 @@
           "type": "image",
           "caption": "Cave light render in Cinema4D + Redshift"
         },
-
         {
-          "link": "../images/abandonedHotels/liquid.png",
+          "link": "../images/abandonedHotels/particle.png",
           "type": "image",
-          "caption": "WIP shot of disinteragation exploration 2 in Cinema4D (liquid)"
+          "caption": "Disintegration exploration 1 in Cinema4D + Redshift (particle)"
         },
         {
           "link": "../images/abandonedHotels/caveLight.png",
@@ -429,7 +499,7 @@
         {
           "link": "../images/abandonedHotels/fragment.png",
           "type": "image",
-          "caption": "Disinteragation exploration 2 in Cinema4D + Redshift (fragments)"
+          "caption": "Disintegration exploration 2 in Cinema4D + Redshift (fragments)"
         },
         {
           "link": "../images/abandonedHotels/wipUE.PNG",
@@ -439,7 +509,7 @@
         {
           "link": "../images/abandonedHotels/wipFragment.png",
           "type": "image",
-          "caption": "WIP shot of disinteragation exploration 2 in Cinema4D (particle)"
+          "caption": "WIP shot of disintegration exploration 2 in Cinema4D (particle)"
         }
       ]
     },
@@ -567,7 +637,7 @@
         {
           "link": "../images/pxe/1.jpg",
           "type": "image",
-          "caption": "Detanglement scene still"
+          "caption": "Cable scene still"
         },
         {
           "link": "https://www.youtube.com/embed/UZPrLEAJa_g",
@@ -582,7 +652,7 @@
         {
           "link": "../images/pxe/5.PNG",
           "type": "image",
-          "caption": "Mesh shapes for detanglement scene"
+          "caption": "Mesh shapes for cable scene"
         },
         {
           "link": "../images/pxe/6.PNG",
@@ -685,7 +755,7 @@
         {
           "link": "../images/nicos/nicos2.png",
           "type": "image",
-          "caption": "A meeting at the shrine to combine tradtional instruments with electornic"
+          "caption": "A meeting at the shrine to combine traditional instruments with electronics"
         },
         {
           "link": "https://www.youtube.com/embed/m4FkYmwpMYE",
@@ -995,7 +1065,7 @@
         },
         {
           "header": "Technical Implementation",
-          "text": "The surreal “florality” is achieved by taking pre-existing 3D scans of organic matter like grass and then dispersing them through random variations on a branch. Then color ramps are added to each variation, generating floral shades of alien nature. Then an ice material was created by altering parameters like sub-surface scattering. A melt deformer is applied on the iceblock and color values are changed throughout the animation to calibrate/maintain the alien nature of the visual palette."
+          "text": "The surreal “florality” is achieved by taking pre-existing 3D scans of organic matter like grass and then dispersing them through random variations on a branch. Then color ramps are added to each variation, generating floral shades of alien nature. Then an ice material was created by altering parameters like sub-surface scattering. A melt deformer is applied on the ice-block and color values are changed throughout the animation to calibrate/maintain the alien nature of the visual palette."
         }
       ],
       "media": [

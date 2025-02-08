@@ -31,14 +31,6 @@ export default function About() {
           Resume
         </a>
         <a
-          href="https://www.instagram.com/aacarcrash"
-          target="_blank"
-          rel="noreferrer"
-          className="pr-2 font-bold underline underline-offset-4"
-        >
-          Instagram
-        </a>
-        <a
           href="mailto:aakarsh@nyu.edu"
           target="_blank"
           rel="noreferrer"

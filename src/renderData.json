@@ -12,6 +12,11 @@
           "link": "https://player.vimeo.com/video/920402029",
           "type": "video",
           "caption": "I Feel Like I Forget Everything / NyQuil - A/V"
+        },
+        {
+          "link": "https://player.vimeo.com/video/936011230",
+          "type": "video",
+          "caption": "Derealization - A/V"
         }
       ]
     },
@@ -112,11 +117,6 @@
           "link": "https://www.youtube.com/embed/Ccj7-5hdtX4",
           "type": "video",
           "caption": "MetaHuman and 3D scanned objects + scenery"
-        },
-        {
-          "link": "https://player.vimeo.com/video/876119719",
-          "type": "video",
-          "caption": "Atalantic Diva - Malibu"
         }
       ]
     },
